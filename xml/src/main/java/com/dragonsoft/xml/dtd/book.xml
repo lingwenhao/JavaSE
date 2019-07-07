@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--外部引入的dtd-->
+<!--<!DOCTYPE book SYSTEM "book.dtd">-->
+<!--定义在xml中的dtd-->
+<!DOCTYPE book[
+        <!ELEMENT book (书+)>
+        <!ELEMENT 书 (书名,价格)>
+        <!ELEMENT 书名 (#PCDATA)>
+        <!ELEMENT 价格 (#PCDATA)>
+        ]>
+<book>
+    <书>
+        <书名>大学英语</书名>
+        <价格>18</价格>
+    </书>
+    <书>
+        <书名>大学国文</书名>
+        <价格>19</价格>
+    </书>
+    <书>
+        <书名>高等数学</书名>
+        <价格>26</价格>
+        <价格1>26</价格1>
+    </书>
+</book>

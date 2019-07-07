@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<person> 
+  <p1 id="firstP1"> 
+    <!-- <school>UFE</school>  -->  
+    <name>我是你爸爸</name>  
+    <school>UFE</school>  
+    <age>26</age>  
+    <sex>女</sex>  
+    <sex>女</sex>  
+    <sex>女</sex> 
+  </p1>  
+  <p1> 
+    <name>lisi</name>  
+    <age>20</age> 
+  </p1> 
+</person>
