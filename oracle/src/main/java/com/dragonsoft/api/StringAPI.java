@@ -81,6 +81,22 @@ public class StringAPI {
 		String source = "abcdef";
 		String[] split = source.split("");
 		System.out.println(Arrays.toString(split));
+	}
 
+	/**
+	 * valueOf和toString():
+	 * valueOf()源码:
+	 * public static String valueOf(Object obj) {
+	 *		return (obj == null) ? "null" : obj.toString();
+	 * }
+	 */
+	@Test
+	public void valueOfAndToString(){
+		//valueOf():不会抛空指针异常
+		Integer num = null;
+		System.out.println(String.valueOf(num));
+		//toString():会跑出空指针异常
+		String str = null;
+		System.out.println(str.toString());
 	}
 }

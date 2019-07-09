@@ -8,7 +8,10 @@
  */ 
 package com.dragonsoft.collection;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -68,5 +71,15 @@ public class CollectionAPI {
 		 * 会自动去重
 		 */
 		System.out.println("set1.addAll(set2):"+set1.toString());
+	}
+
+	/**
+	 * 判断集合是否为空
+	 */
+	@Test
+	public void isEmptyCollection(){
+		Collection<String> collection = new ArrayList<>();
+		boolean empty = collection.isEmpty();
+		System.out.println(empty);
 	}
 }

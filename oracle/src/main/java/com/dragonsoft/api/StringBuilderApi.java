@@ -24,11 +24,13 @@ public class StringBuilderApi {
 		System.out.println(stringBuilder.toString());
 		stringBuilder.delete(0, 1);
 		System.out.println(stringBuilder.toString());
-		
-		String s1 = "q" + "e";//在编译期会进行优化
+
+		//在编译期会进行优化
+		String s1 = "q" + "e";
 		String s2 = "1";
 		String s3 = "3";
-		String s4 = s1 + s3;//编译时期不会做优化，因为编译的时候还不知道s1和s3代表的具体值是什么
+		//编译时期不会做优化，因为编译的时候还不知道s1和s3代表的具体值是什么
+		String s4 = s1 + s3;
 		System.out.println(s4);
 	}
 }
