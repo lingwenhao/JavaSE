@@ -10,10 +10,7 @@ package com.dragonsoft.collection;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 /**  
  * @ClassName: CollectionAPI  
@@ -81,5 +78,38 @@ public class CollectionAPI {
 		Collection<String> collection = new ArrayList<>();
 		boolean empty = collection.isEmpty();
 		System.out.println(empty);
+	}
+
+	/**
+	 * 集合装换为数组
+	 * 		ArrayList源码注释:c.toArray might (incorrectly) not return Object[] (see 6260652)
+	 */
+	@Test
+	public void toArray(){
+		Collection<String> collection = new ArrayList<>();
+		collection.add("1");
+		collection.add("2");
+		collection.add("3");
+		Object[] objects = collection.toArray();
+		System.out.println(objects.getClass());//class [Ljava.lang.Object;
+		System.out.println(Arrays.toString(objects));
+
+		System.out.println("-------------------------");
+
+		List<String> list = new ArrayList<>();
+		list.add("1");
+		list.add("2");
+		list.add("3");
+		Object[] listArray = list.toArray();
+		System.out.println(listArray.getClass());//class [Ljava.lang.String;
+		System.out.println(Arrays.toString(listArray));
+
+		System.out.println("-------------------------");
+
+		List<String> arrayList = Arrays.asList("xxx","yyyy");
+		Object[] listArray1 = arrayList.toArray();
+		System.out.println(listArray1.getClass());//class [Ljava.lang.Object;
+		System.out.println(Arrays.toString(listArray1));
+
 	}
 }
