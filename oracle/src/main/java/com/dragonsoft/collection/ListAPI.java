@@ -32,13 +32,19 @@ public class ListAPI {
         list.add(2,"wangmazi");
         System.out.println(list);
     }
+
+    /**
+     * 测试list是否包含某一个元素
+     *      包含:返回true
+     *      不包含:返回false
+     */
     @Test
-    public void testAddByIndex1(){
-//        ArrayList<String> list = new ArrayList<>();
-//        list.add(0,"zhangsan");
-//        list.add(1,"lisi");
-//        list.add(2,"wangmazi");
-//        System.out.println(list);
-        Arrays.asList("xxx")
+    public void testContains(){
+        ArrayList<String> list = new ArrayList<>();
+        list.add(0,"zhangsan");
+        list.add(1,"lisi");
+        list.add(2,"wangmazi");
+        System.out.println(list.contains("zhangsan"));
+        System.out.println(list.contains("xxxxxxx"));
     }
 }

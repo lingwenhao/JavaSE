@@ -1,5 +1,8 @@
 package com.dragonsoft.innerclass;
 
+/**
+ * 同时内部类实现一个接口
+ */
 public class InnerClassPlus {
     public static void main(String[] args) {
         new AA().test();

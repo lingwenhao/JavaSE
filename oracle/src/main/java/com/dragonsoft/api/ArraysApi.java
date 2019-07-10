@@ -9,6 +9,8 @@
 package com.dragonsoft.api;
 
 import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
 
 import org.junit.Test;
 
@@ -113,4 +115,25 @@ public class ArraysApi {
 		System.out.println(Arrays.equals(strs1,strs2));
 		System.out.println(Arrays.equals(strs1,strs3));
 	}
+
+	/**
+	 * @Title: equals
+	 * @Description: 把数组转换成为List
+	 * 			Array->List:Arrays.asList()
+	 * 			List->Array:List.toArray()
+	 * @param
+	 * @return void
+	 * @throws
+	 */
+	@Test
+	public void asList(){
+		List<String> list = Arrays.asList("1", "2", "3", "4", "5");
+		Iterator<String> iterator = list.iterator();
+		while(iterator.hasNext()){
+			String ele = iterator.next();
+			System.out.println(ele);
+		}
+	}
+
+
 }
