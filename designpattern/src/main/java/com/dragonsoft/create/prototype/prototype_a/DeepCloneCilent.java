@@ -25,7 +25,6 @@ public class DeepCloneCilent {
 		Person personClone1 = (Person)personProtoType.clone();
 		System.out.println("克隆对象1:"+personClone1);
 		
-		
 		/*
 		 * 先创建克隆对象，再修改原型中引用类型属性的值
 		 */
