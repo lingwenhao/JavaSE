@@ -10,6 +10,10 @@ import java.util.List;
  * @author ronin
  * @version V1.0
  * @desc 测试深克隆的用例:
+ *       深克隆方式：
+ *          1:对实体中的某些字段进行特殊处理，如:复制数组、复制集合
+ *          2.理或者使该实体中的引用也实现Cloneable接口，并重写Objet中clone()方法
+ *       这种深克隆方式的局限性:
  * @since 2019/7/11 11:13
  */
 
