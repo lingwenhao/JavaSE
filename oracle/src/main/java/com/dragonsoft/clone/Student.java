@@ -20,10 +20,14 @@ public class Student implements Serializable{
         ObjectOutputStream oo = new ObjectOutputStream(bo);
         //序列化
         oo.writeObject(student);
+        //关闭流
+        oo.close();
         ByteArrayInputStream bi = new ByteArrayInputStream(bo.toByteArray());
         ObjectInputStream oi = new ObjectInputStream(bi);
         //反序列化
         Student studentCloneSerializable = (Student) oi.readObject();
+        //关闭流
+        oi.close();
         //原型对象:
         System.out.println("原Student："+student);
         //修改克隆对象中引用类型数据的属性值:
