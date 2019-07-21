@@ -1,5 +1,5 @@
 /**  
- * @Title: Client.java  
+ * @Title: PizzaStore.java
  * @Package com.dragonsoft.structure.dynamicproxy
  * @Description: TODO(用一句话描述该文件做什么)  
  * @author ronin  
@@ -11,7 +11,7 @@ package com.dragonsoft.structure.dynamicproxy.dynamicproxy_a;
 import java.lang.reflect.Proxy;
 
 /**  
- * @ClassName: Client  
+ * @ClassName: PizzaStore
  * @Description: TODO(客户端:测试动态代理)  
  * @author ronin  
  * @date 2019年3月23日  

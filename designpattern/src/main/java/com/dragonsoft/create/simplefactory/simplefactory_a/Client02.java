@@ -21,5 +21,6 @@ public class Client02 {
 		audi.run();
 		Car byd = CarFactory.createCar("byd");
 		byd.run();
+		System.out.println(Client02.class);
 	}
 }

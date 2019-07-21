@@ -1,5 +1,5 @@
 /**  
- * @Title: Client.java  
+ * @Title: PizzaStore.java
  * @Package com.dragonsoft.structure.adapter
  * @Description: TODO(用一句话描述该文件做什么)  
  * @author ronin  
@@ -10,7 +10,7 @@ package com.dragonsoft.structure.adapter.adapter_a;
 
 
 /**  
- * @ClassName: Client  
+ * @ClassName: PizzaStore
  * @Description: TODO(相当于笔记本电脑，只有USB接口)  
  * @author ronin  
  * @date 2019年3月23日  

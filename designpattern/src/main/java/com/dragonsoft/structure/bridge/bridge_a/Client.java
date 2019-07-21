@@ -1,5 +1,5 @@
 /**  
- * @Title: Client.java  
+ * @Title: PizzaStore.java
  * @Package com.dragonsoft.structure.bridge
  * @Description: TODO(用一句话描述该文件做什么)  
  * @author ronin  
@@ -10,7 +10,7 @@ package com.dragonsoft.structure.bridge.bridge_a;
 
 
 /**  
- * @ClassName: Client  
+ * @ClassName: PizzaStore
  * @Description: TODO(测试桥接模式)  
  * @author ronin  
  * @date 2019年3月23日  

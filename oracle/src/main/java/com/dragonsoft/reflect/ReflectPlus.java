@@ -9,6 +9,7 @@
 package com.dragonsoft.reflect;
 
 import java.lang.reflect.Array;
+import java.lang.reflect.Field;
 import java.util.Arrays;
 
 import org.junit.Test;
@@ -31,7 +32,7 @@ public class ReflectPlus {
 	 * @throws
 	 */
 	@Test
-	public void fun(){
+	public void fun1(){
 		/**
 		 * .class:
 		 * 		如果知道类名，可以使用:类名.class获取Class对象
@@ -44,5 +45,25 @@ public class ReflectPlus {
 		ReflectPlus reflectPlusClass = new ReflectPlus();
 		Class<? extends ReflectPlus> clazz = reflectPlusClass.getClass();
 	}
+
+	/**
+	 * 实体中不需要无参构造方法，反射也可以操作对象任意
+	 * @throws IllegalAccessException
+	 * @throws InstantiationException
+	 * @throws NoSuchFieldException
+	 */
+	@Test
+	public void fun2() throws IllegalAccessException, InstantiationException, NoSuchFieldException {
+		Class<A> aClass = A.class;
+		A a = aClass.newInstance();
+		System.out.println(a);
+
+		Field a1 = aClass.getDeclaredField("a");
+		a1.setAccessible(true);
+		System.out.println(a1.get(a));
+	}
 	
+}
+class A{
+	private int a = 10;
 }

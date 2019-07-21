@@ -1,5 +1,5 @@
 /**  
- * @Title: Client.java  
+ * @Title: PizzaStore.java
  * @Package com.dragonsoft.structure.composite
  * @Description: TODO(用一句话描述该文件做什么)  
  * @author ronin  
@@ -9,7 +9,7 @@
 package com.dragonsoft.structure.composite.composite_a;
 
 /**  
- * @ClassName: Client  
+ * @ClassName: PizzaStore
  * @Description: TODO(这里用一句话描述这个类的作用)  
  * @author ronin  
  * @date 2019年3月23日  

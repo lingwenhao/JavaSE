@@ -1,5 +1,5 @@
 /**  
- * @Title: Client.java  
+ * @Title: PizzaStore.java
  * @Package com.dragonsoft.structure.staticproxy
  * @Description: TODO(用一句话描述该文件做什么)  
  * @author ronin  
@@ -9,7 +9,7 @@
 package com.dragonsoft.structure.staticproxy.staticproxy_a;
 
 /**  
- * @ClassName: Client  
+ * @ClassName: PizzaStore
  * @Description: TODO(调用者)  
  * @author ronin  
  * @date 2019年3月23日  

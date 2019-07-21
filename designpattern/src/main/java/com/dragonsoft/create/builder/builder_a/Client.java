@@ -1,5 +1,5 @@
 /**  
- * @Title: Client.java  
+ * @Title: PizzaStore.java
  * @Package com.dragonsoft.create.builder.builder  
  * @Description: TODO(用一句话描述该文件做什么)  
  * @author ronin  
@@ -9,7 +9,7 @@
 package com.dragonsoft.create.builder.builder_a;
 
 /**  
- * @ClassName: Client  
+ * @ClassName: PizzaStore
  * @Description: TODO(客户端)  
  * @author ronin  
  * @date 2019年3月23日  
