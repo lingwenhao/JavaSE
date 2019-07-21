@@ -1,5 +1,6 @@
 package com.dragonsoft.collection;
 
+
 import java.util.*;
 
 /**
@@ -40,6 +41,7 @@ public class LinkHashMapTest {
         map.put("8","8");
         map.put("9","9");
     }
+
     public static void main(String[] args) {
         /**
          * 打印Map
@@ -87,4 +89,5 @@ public class LinkHashMapTest {
         System.out.println(map.values());
         System.out.println("-----------------测试"+map.getClass().getSimpleName()+"结values()方法结束-----------------------");
     }
+
 }
