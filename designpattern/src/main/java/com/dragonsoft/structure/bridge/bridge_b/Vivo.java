@@ -1,5 +1,8 @@
 package com.dragonsoft.structure.bridge.bridge_b;
 
+/**
+ * Vivo手机
+ */
 public class Vivo implements Brand{
     @Override
     public void open() {

@@ -9,5 +9,39 @@
     类适配器模式
     对象适配器模式
     接口适配器模式
+
 最大的作用:将原本不兼容的接口融合在一起工作
 
+常见的应用:
+    1.JDK-java.util.Collections#enumeration:接口适配器
+        public interface Enumeration<E> {
+            boolean hasMoreElements();
+            E nextElement();
+        }
+
+        public static <T> Enumeration<T> enumeration(final Collection<T> c) {
+            return new Enumeration<T>() {
+                private final Iterator<T> i = c.iterator();
+
+                public boolean hasMoreElements() {
+                    return i.hasNext();
+                }
+
+                public T nextElement() {
+                    return i.next();
+                }
+            };
+        }
+        被适配者类:Enumeration
+        目标类:Iterator
+        目标:为了让Iterator能提供遍历元素的功能，提供了EnumerationIterator作为适配器类。
+    2.JDK-InputStreamReader
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("请输入内容:");
+        String input = bufferedReader.readLine();
+        System.out.println("用户输入的内容:"+input);
+
+        上面代码：System.in实际是类型为 InputStream，而由于BufferedReader与InputStream不能一起工作，于是引入
+        BufferedReader 类，作为适配器类，将InputStreamReader类的接口转成 BufferedReader 类可用的接口。
+    3.SpringMVCz中HandlerAdapter
+    4.SpringMVC-RequestMappingHandlerAdapter

@@ -1,5 +1,8 @@
 package com.dragonsoft.structure.bridge.bridge_b;
 
+/**
+ * 小米手机
+ */
 public class Ximi implements Brand{
     @Override
     public void open() {
