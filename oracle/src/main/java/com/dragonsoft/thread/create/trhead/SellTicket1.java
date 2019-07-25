@@ -1,4 +1,4 @@
-package com.dragonsoft.thread;
+package com.dragonsoft.thread.create.trhead;
 
 public class SellTicket1 extends Thread{
     private static int tiket = 100;

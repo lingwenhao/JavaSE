@@ -1,4 +1,4 @@
-package com.dragonsoft.thread;
+package com.dragonsoft.thread.create.trhead;
 
 public class SellTicket1Test {
     public static void main(String[] args) {

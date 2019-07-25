@@ -1,4 +1,4 @@
-package com.dragonsoft.thread;
+package com.dragonsoft.thread.lock.reentrant_lock;
 
 public class LockTicketTest {
     public static void main(String[] args) {
