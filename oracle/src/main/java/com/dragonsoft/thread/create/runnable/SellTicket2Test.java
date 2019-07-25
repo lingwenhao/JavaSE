@@ -1,4 +1,6 @@
-package com.dragonsoft.thread;
+package com.dragonsoft.thread.create.runnable;
+
+import com.dragonsoft.thread.create.runnable.SellTicket2;
 
 public class SellTicket2Test {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.dragonsoft.thread;
+package com.dragonsoft.thread.lock.reentrant_lock;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
