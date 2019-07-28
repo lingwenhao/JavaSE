@@ -187,13 +187,14 @@ public class ClassPathXmlApplicationContext implements BeanFactory{
 	}
 
 	/**
-	 * <p>Title: getBean</p>  
-	 * <p>Description: </p>  
-	 * @param name
-	 * @return  
-	 * @see BeanFactory#getBean(String)
-	 */  
-	@SuppressWarnings("unchecked")
+	 * 获取bean
+	 *
+	 * @param beanId
+	 * @param t
+	 * @param <T>
+	 * @return
+	 */
+	@Override
 	public <T> T getBean(String beanId,Class<T> t) {
 		return (T)this.getBean(beanId);
 	}
@@ -205,7 +206,7 @@ public class ClassPathXmlApplicationContext implements BeanFactory{
 	 * @return  
 	 * @see BeanFactory#getBean(String)
 	 */  
-	
+	@Override
 	public Object getBean(String beanId) {
 		//如何xml中scope配置的值是prototype，不是singleton，那么context中不会包含该Bean对象
 		Object bean = context.get(beanId);

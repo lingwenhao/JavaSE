@@ -1,0 +1,33 @@
+Cglib实现动态代理:
+    顶层是通过使用字节码处理框架ASM来转换字节码并生成新的类
+步骤:
+    1.需要引入jar包
+       <!-- https://mvnrepository.com/artifact/asm/asm -->
+       <dependency>
+           <groupId>asm</groupId>
+           <artifactId>asm</artifactId>
+           <version>3.3</version>
+       </dependency>
+       <!-- https://mvnrepository.com/artifact/asm/asm-commons -->
+       <dependency>
+           <groupId>asm</groupId>
+           <artifactId>asm-commons</artifactId>
+           <version>3.3</version>
+       </dependency>
+       <!-- https://mvnrepository.com/artifact/asm/asm-tree -->
+       <dependency>
+           <groupId>asm</groupId>
+           <artifactId>asm-tree</artifactId>
+           <version>3.3</version>
+       </dependency>\
+       <!-- https://mvnrepository.com/artifact/cglib/cglib -->
+       <dependency>
+           <groupId>cglib</groupId>
+           <artifactId>cglib</artifactId>
+           <version>3.2.8</version>
+       </dependency>
+    2.在内存中构建代理子类，注意:被代理的类不能被final修饰,否则会抛出方法参数异常
+    3.目标的对象如果如final/static,那么不会拦截，即不会执行目标对象额外的方法
+
+
+

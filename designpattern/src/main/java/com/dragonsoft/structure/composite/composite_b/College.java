@@ -8,7 +8,7 @@ public class College extends OrganizationComponment {
     /**
      * 存放的department
      */
-    List<OrganizationComponment> colleges = new ArrayList<OrganizationComponment>();
+    List<OrganizationComponment> deparmentList = new ArrayList<OrganizationComponment>();
 
     public College(String name, String desc) {
         super(name, desc);
@@ -16,12 +16,12 @@ public class College extends OrganizationComponment {
 
     @Override
     protected void add(OrganizationComponment organizationComponment) {
-        colleges.add(organizationComponment);
+        deparmentList.add(organizationComponment);
     }
 
     @Override
     protected void remove(OrganizationComponment organizationComponment) {
-        colleges.remove(organizationComponment);
+        deparmentList.remove(organizationComponment);
     }
 
     @Override
@@ -41,8 +41,8 @@ public class College extends OrganizationComponment {
     public void print() {
         System.out.println("-------------"+getName()+":"+getDesc()+"-------------");
         //遍历
-        for(OrganizationComponment college:colleges){
-            college.print();
+        for(OrganizationComponment department:deparmentList){
+            department.print();
         }
     }
 }

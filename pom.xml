@@ -17,6 +17,7 @@
         <module>oracle</module>
         <module>spring</module>
         <module>xml</module>
+        <module>jdk-source</module>
     </modules>
 
     <build>

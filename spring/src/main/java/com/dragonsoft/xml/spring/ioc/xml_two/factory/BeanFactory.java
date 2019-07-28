@@ -16,8 +16,21 @@ package com.dragonsoft.xml.spring.ioc.xml_two.factory;
  *    
  */
 public interface BeanFactory {
-    //核心方法getBean
+    /**
+     * 获取bean
+     *
+     * @param beanId
+     * @return
+     */
     Object getBean(String beanId);
-    //核心方法getBean的重载
+
+    /**
+     * 获取bean
+     *
+     * @param beanId
+     * @param t
+     * @param <T>
+     * @return
+     */
     <T> T getBean(String beanId, Class<T> t);
 }

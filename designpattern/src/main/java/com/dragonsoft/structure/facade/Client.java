@@ -15,6 +15,6 @@ public class Client {
         homeTheaterFacade.puse();
         System.out.println("--------------------------------");
         homeTheaterFacade.end();
-        System.out.println("--------------------------------");
+        System.out.println("-------------------------------- ");
     }
 }

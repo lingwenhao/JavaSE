@@ -8,7 +8,7 @@ public class PropertiesUtils {
     /**
      *  不使用适配器模式
      */
-//    public static void list(Collection collection){
+//    public static void list(Structure collection){
 //        if(collection instanceof List){
 //            System.out.println("List......");
 //        }else if(collection instanceof Set){
