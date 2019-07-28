@@ -1,8 +1,5 @@
 package com.dragonsoft.structure.composite.composite_b;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Department extends OrganizationComponment {
 
     public Department(String name, String desc) {
