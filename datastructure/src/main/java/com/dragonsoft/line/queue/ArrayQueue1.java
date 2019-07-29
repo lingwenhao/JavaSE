@@ -30,9 +30,7 @@ public class ArrayQueue1 {
 		/**
 		 * 出队列 
 		 */
-		queue.poll();
-		queue.poll();
-		queue.poll();
+		System.out.println(queue.poll());
 		queue.printQueue();
 	}
 	
