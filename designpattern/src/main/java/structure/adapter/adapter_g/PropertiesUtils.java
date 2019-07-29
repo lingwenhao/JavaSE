@@ -1,5 +1,6 @@
 package structure.adapter.adapter_g;
 
+import java.lang.reflect.Parameter;
 import java.util.*;
 
 public class PropertiesUtils {

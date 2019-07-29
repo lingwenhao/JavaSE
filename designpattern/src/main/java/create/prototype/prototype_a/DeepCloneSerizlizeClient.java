@@ -1,6 +1,6 @@
 /**  
  * @Title: DeepCloneSerizlizeClient.java  
- * @Package create.prototype
+ * @Package com.dragonsoft.create.prototype  
  * @Description: TODO(用一句话描述该文件做什么)  
  * @author ronin  
  * @date 2019年3月23日  

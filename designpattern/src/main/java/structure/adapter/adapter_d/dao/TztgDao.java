@@ -1,5 +1,6 @@
 package structure.adapter.adapter_d.dao;
 
+
 import structure.adapter.adapter_d.domain.Tztg;
 
 public class TztgDao {

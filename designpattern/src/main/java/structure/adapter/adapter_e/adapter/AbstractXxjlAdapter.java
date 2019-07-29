@@ -1,5 +1,6 @@
 package structure.adapter.adapter_e.adapter;
 
+
 import structure.adapter.adapter_e.domain.Gatzl;
 import structure.adapter.adapter_e.domain.Tztg;
 import structure.adapter.adapter_e.service.IGatzlService;

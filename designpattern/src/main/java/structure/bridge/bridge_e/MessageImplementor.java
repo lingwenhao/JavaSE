@@ -11,5 +11,5 @@ public interface MessageImplementor {
      * @param message 要发送的消息内容
      * @param toUser   接收消息的用户
      */
-    void send(String message , String toUser);
+    void send(String message, String toUser);
 }
