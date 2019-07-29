@@ -7,19 +7,35 @@ package action.mediator.mediator_a;
  * @since 2019/7/29 9:24
  */
 public abstract class SmartMediator {
+
     /**
      * 保留所有设备的引用是为了当接收指令时可以唤醒其他设备的操作
      */
-    SmartDevice bd;
-    SmartDevice md;
-    SmartDevice cd;
-    public SmartMediator(SmartDevice bd, SmartDevice md, SmartDevice cd) {
-        super();
-        this.bd = bd;
-        this.md = md;
-        this.cd = cd;
+    protected SmartDevice bathDevice;
+    protected SmartDevice curtainDevice;
+    protected SmartDevice musicDevice;
+
+    public SmartMediator(SmartDevice bathDevice, SmartDevice curtainDevice, SmartDevice musicDevice) {
+        this.bathDevice = bathDevice;
+        this.curtainDevice = curtainDevice;
+        this.musicDevice = musicDevice;
     }
+
+    /**
+     * 调用音乐设备的方法
+     * @param instruction
+     */
     public abstract void music(String instruction);
+
+    /**
+     * 调用窗帘设备的方法
+     * @param instruction
+     */
     public abstract void curtain(String instruction);
+
+    /**
+     * 调用洗浴设备的方法
+     * @param instruction
+     */
     public abstract void bath(String instruction);
 }

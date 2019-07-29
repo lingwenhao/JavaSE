@@ -5,7 +5,7 @@ package action.strategy.strategy_b;
  */
 public class ToyDuck extends Duck {
     public ToyDuck() {
-        System.out.println("玩具鸭.....");
+        System.out.println("我是一只玩具鸭.....");
         //玩具鸭不会飞翔
         super.flyBehavior = new NoFlyBehavior();
         //玩具鸭不会游泳

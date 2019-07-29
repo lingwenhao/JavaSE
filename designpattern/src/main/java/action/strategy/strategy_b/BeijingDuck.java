@@ -5,7 +5,7 @@ package action.strategy.strategy_b;
  */
 public class BeijingDuck extends Duck {
     public BeijingDuck() {
-        System.out.println("北京鸭.....");
+        System.out.println("我是一只北京鸭.....");
         //北京鸭飞翔技能一般
         super.flyBehavior = new BadFlyBehavior();
         //北京鸭游泳技能一般

@@ -5,7 +5,7 @@ package action.strategy.strategy_b;
  */
 public class WildDuck extends Duck{
     public WildDuck() {
-        System.out.println("野鸭......");
+        System.out.println("我是一只野鸭......");
         //野鸭飞翔技能高超
         super.flyBehavior = new GoodFlyBehavior();
         //野鸭游泳技能高超

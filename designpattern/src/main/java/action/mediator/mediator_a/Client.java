@@ -8,14 +8,17 @@ package action.mediator.mediator_a;
  */
 public class Client {
     public static void main(String[] args) {
-        SmartDevice bd=new BathDevice();
-        SmartDevice cd=new CurtainDevice();
-        SmartDevice md=new MusicDevice();
+        SmartDevice bathDevice =new BathDevice();
+        SmartDevice curtainDevice =new CurtainDevice();
+        SmartDevice musicDevice =new MusicDevice();
         //把设备引用都保存在调停者中
-        SmartMediator sm=new ConcreteMediator(bd, cd, md);
+        SmartMediator smartMediator =new ConcreteMediator(bathDevice, curtainDevice, musicDevice);
         //开启窗帘
-        cd.operateDevice("open",sm);
+        curtainDevice.operateDevice("open",smartMediator);
+
+        System.out.println("----------------------------------------");
+
         //关闭音乐
-        md.operateDevice("close",sm);
+        musicDevice.operateDevice("close",smartMediator);
     }
 }
