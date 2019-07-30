@@ -1,6 +1,5 @@
 package queue.queue_a;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
@@ -9,21 +8,14 @@ import java.util.Arrays;
  * @author ronin
  */
 public class Queue {
-    /**
-     * 队列的最大容量
-     */
+
+    /**队列的最大容量*/
     private int maxCapacity;
-    /**
-     * 队列头指针:指向队列中第一个元素的前一个元素
-     */
+    /**队列头指针:指向队列中第一个元素的前一个元素*/
     private int front;
-    /**
-     * 列尾指针:指向队列中的最后一个元素
-     */
+    /**列尾指针:指向队列中的最后一个元素*/
     private int rear;
-    /**
-     * 用于存放队列中的元素
-     */
+    /**用于存放队列中的元素*/
     private int[] elements;
 
     /**

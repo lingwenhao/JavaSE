@@ -10,7 +10,7 @@ package create.singleton;
 
 /**  
 * @ClassName: SingletonTest1
-* @Description: 懒汉式:静态方法
+* @Description: 饿汉式:静态方法
 * @author ronin
 * @date 2019年3月2日  
 */
@@ -33,7 +33,7 @@ class Singleton1 {
      *      巧记:恶汉式,非常饿,上来就吃了
      *      效率高体现在不使用同步
      */
-    private final static Singleton1 singleton1 = new Singleton1();
+    private static final Singleton1 singleton1 = new Singleton1();
     public static Singleton1 getInstance(){
         return  singleton1;
     }
