@@ -6,6 +6,10 @@ import java.util.HashMap;
  * @author ronin
  * @version V1.0
  * @desc 享元工厂
+ *          作用1:提供享元对象的共享管理
+ *          作用2:提供对外访问享元的接口
+ *       注意:
+ *          享元工厂一般设置为单例
  * @since 2019/7/30 13:24
  */
 public class FlyweightFactory {

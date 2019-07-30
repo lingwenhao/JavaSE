@@ -19,5 +19,9 @@ public class Client {
         System.out.println("f1=="+f1);
         System.out.println("f2=="+f2);
 
+        for(int i=0;i<3;i++){
+            securityMgr.login("张三"+i);
+            securityMgr.hasAuthority("张三"+i,"薪资数据","查看");
+        }
     }
 }
