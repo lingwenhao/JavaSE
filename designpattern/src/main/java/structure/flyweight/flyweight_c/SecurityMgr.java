@@ -39,6 +39,27 @@ public class SecurityMgr {
     }
 
     /**
+     * 模拟从数据库中获取某人所拥有的权限
+     * @param user 需要获取所拥有的权限的人员
+     * @return 某人所拥有的权限
+     */
+    private Collection<AuthorizationModel> validateAutority(String user){
+        Collection<AuthorizationModel> col = new ArrayList<>();
+        for(String authorityInfo : DataFactory.getAuthorityInfos()){
+            String[] authorityInfoArr = authorityInfo.split(",");
+            //authorityInfoArr结构:{"张三","人员列表","查看"}
+            if(authorityInfoArr[0].equals(user)){
+                AuthorizationModel am = new AuthorizationModel();
+                am.setUser(authorityInfoArr[0]);
+                am.setSecurityEntity(authorityInfoArr[1]);
+                am.setAuthority(authorityInfoArr[2]);
+                col.add(am);
+            }
+        }
+        return col;
+    }
+
+    /**
      * 判断某用户对某个安全实体是否拥有某权限
      * @param user 被检测权限的用户
      * @param securityEntity 安全实体
@@ -61,24 +82,4 @@ public class SecurityMgr {
         return false;
     }
 
-    /**
-     * 模拟从数据库中获取某人所拥有的权限
-     * @param user 需要获取所拥有的权限的人员
-     * @return 某人所拥有的权限
-     */
-    private Collection<AuthorizationModel> validateAutority(String user){
-        Collection<AuthorizationModel> col = new ArrayList<>();
-        for(String authorityInfo : DataFactory.getAuthorityInfos()){
-            String[] authorityInfoArr = authorityInfo.split(",");
-            //authorityInfoArr结构:{"张三","人员列表","查看"}
-            if(authorityInfoArr[0].equals(user)){
-                AuthorizationModel am = new AuthorizationModel();
-                am.setUser(authorityInfoArr[0]);
-                am.setSecurityEntity(authorityInfoArr[1]);
-                am.setAuthority(authorityInfoArr[2]);
-                col.add(am);
-            }
-        }
-        return col;
-    }
 }
