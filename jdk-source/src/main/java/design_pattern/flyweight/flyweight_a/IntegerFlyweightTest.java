@@ -1,4 +1,4 @@
-package structure.flyweight.flyweight_b;
+package design_pattern.flyweight.flyweight_a;
 
 public class IntegerFlyweightTest {
     public static void main(String[] args) {
