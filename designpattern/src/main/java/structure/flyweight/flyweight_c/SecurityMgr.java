@@ -53,6 +53,11 @@ public class SecurityMgr {
                 am.setUser(authorityInfoArr[0]);
                 am.setSecurityEntity(authorityInfoArr[1]);
                 am.setAuthority(authorityInfoArr[2]);
+                /**
+                 * 和享元模式的区别:此模式并没有区分出变化和不变化的元数据，而是将变化和不变化的元数据一起封装到了
+                 * AuthorizationModel这个实体中，而享元模式是区分出不变的发生变化的，把不变的作为内部状态封装
+                 * 到享元类中
+                 */
                 col.add(am);
             }
         }

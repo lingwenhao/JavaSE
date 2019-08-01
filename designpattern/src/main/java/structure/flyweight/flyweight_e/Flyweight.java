@@ -1,4 +1,4 @@
-package structure.flyweight.flyweight_d;
+package structure.flyweight.flyweight_e;
 
 /**
  * @author ronin
@@ -11,5 +11,11 @@ public interface Flyweight {
      * @param authority 具体的权限
      * @return
      */
-    boolean match(String securityEntity,String authority);
+    boolean match(String securityEntity, String authority);
+
+    /**
+     * 为flyweight添加子flyweight对象
+     * @param flyweight 被添加的子flyweight对象
+     */
+    void add(Flyweight flyweight);
 }
