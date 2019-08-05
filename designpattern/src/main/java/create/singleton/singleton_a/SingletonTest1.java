@@ -1,4 +1,4 @@
-package create.singleton;
+package create.singleton.singleton_a;
 
 /**  
 * @ClassName: SingletonTest1

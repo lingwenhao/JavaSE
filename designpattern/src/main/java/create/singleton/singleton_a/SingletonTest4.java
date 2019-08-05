@@ -1,4 +1,4 @@
-package create.singleton;
+package create.singleton.singleton_a;
 
 /**
  * 静态内部类实现:懒加载模式、线程安全

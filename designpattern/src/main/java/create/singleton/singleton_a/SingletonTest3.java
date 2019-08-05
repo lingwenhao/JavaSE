@@ -1,4 +1,4 @@
-package create.singleton;
+package create.singleton.singleton_a;
 
 /**
  * 饿汉式:线程安全+线程不安全
