@@ -1,9 +1,6 @@
 package com.dragonsoft.generic;
 
 /**
- * @Title: GenericInterface.java
- * @Package com.dragonsoft.generic
- * @Description: TODO(泛型接口)
  * @author ronin
  * @date 2019年3月15日
  * @version V1.0

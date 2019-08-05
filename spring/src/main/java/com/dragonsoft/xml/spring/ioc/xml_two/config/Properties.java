@@ -1,16 +1,8 @@
-/**  
- * @Title: Properties.java  
- * @Package com.dragonsoft.xml.spring.ioc.xmltwo.config  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月16日  
- * @version V1.0  
- */ 
 package com.dragonsoft.xml.spring.ioc.xml_two.config;
 
 /**  
  * @ClassName: Properties  
- * @Description: TODO(描述xml中<bean/>标签的子标签<propertity name="" value="" ref=""/>)  
+ * 描述xml中<bean/>标签的子标签<propertity name="" value="" ref=""/>
  * @author ronin  
  * @date 2019年3月16日  
  *    
@@ -25,7 +17,6 @@ public class Properties {
 	 */ 
 	public Properties() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	/**  
 	 * 创建一个新的实例 Properties.  

@@ -1,8 +1,7 @@
 /**  
  * @Title: ClassUtils.java  
  * @Package com.ufeec.commonutils.reflect  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月20日  
  * @version V1.0  
  */ 
@@ -22,17 +21,16 @@ import java.util.jar.JarFile;
 
 
 /**  
- * @ClassName: UfeClassUtils  
- * @Description: TODO(反射工具类)  
- * @author ronin  
+ * 反射工具类
+ * @author ronin
  * @date 2019年3月20日  
  *    
  */
 public class ClassUtils{
 	
 	/**
+	 * 获取当前类的全限定名
 	 * @Title: getCurrentClassName  
-	 * @Description: TODO(获取当前类的全限定名)  
 	 * @param
 	 * @return String
 	 * @throws
@@ -42,8 +40,8 @@ public class ClassUtils{
 	}
 	
 	/**
+	 * 获取当前文件名称
 	 * @Title: getCurrentFileName  
-	 * @Description: TODO(获取当前文件名称)  
 	 * @param
 	 * @return String
 	 * @throws
@@ -53,8 +51,8 @@ public class ClassUtils{
 	}
 	
 	/**
+	 * 获取当前方法名称
 	 * @Title: getCurrentMethodName  
-	 * @Description: TODO(获取当前方法名称)  
 	 * @param
 	 * @return String
 	 * @throws
@@ -64,8 +62,8 @@ public class ClassUtils{
 	}
 	
 	/**
+	 * 获取当调用getLineNumber()这个方法的代码所在行数
 	 * @Title: getLineNumber  
-	 * @Description: TODO(获取当调用getLineNumber()这个方法的代码所在行数)  
 	 * @param
 	 * @return String
 	 * @throws
@@ -75,8 +73,8 @@ public class ClassUtils{
 	}
 	
 	/**
+	 * 获取当前类的Class对象
 	 * @Title: getCurrentClass  
-	 * @Description: TODO(获取当前类的Class对象)  
 	 * @param
 	 * @return Class<? extends Object>
 	 * @throws

@@ -1,20 +1,11 @@
-/**  
- * @Title: GenericClass.java  
- * @Package com.dragonsoft.generic  
- * @Description: TODO(泛型类)
- * @author ronin  
- * @date 2019年3月10日  
- * @version V1.0  
- */ 
 package com.dragonsoft.generic;
 
 
 import org.junit.Test;
 
 /**
- * @ClassName: GenericClass  
- * @Description: TODO(泛型使用在类上)  
- * @author ronin  
+ * 泛型使用在类上
+ * @author ronin
  * @date 2019年3月10日  
  */
 public class GenericClass<T> {
@@ -24,8 +15,7 @@ public class GenericClass<T> {
 	T aa;
 	
 	/**
-	 * @Title: fun1  
-	 * @Description: TODO(泛型直接使用在非静态方法上)  
+	 * 泛型直接使用在非静态方法上
 	 * @param bb
 	 * @return void  
 	 * @throws
@@ -33,17 +23,14 @@ public class GenericClass<T> {
 	public void fun1(T bb){}
 	
 	/**
-	 * @Title: fun2  
-	 * @Description: TODO(泛型不能直接使用在静态方法 上,需要在方法返回值前面声明)  
+	 * 泛型不能直接使用在静态方法 上,需要在方法返回值前面声明
 	 * @param cc
-	 * @return void
 	 * @throws
 	 */
 	//public static void fun2(T cc){}
 	
 	/**
-	 * @Title: fun3  
-	 * @Description: TODO(泛型使用在静态方法上是，在使用之前要在返回值前声明)  
+	 * 泛型使用在静态方法上是，在使用之前要在返回值前声明
 	 * @param dd
 	 * @return void
 	 * @throws
@@ -51,11 +38,9 @@ public class GenericClass<T> {
 	public static <T> void fun3(T dd){}
 
 	/**
-	 * @Title: fun4
-	 * @Description: TODO(测试创建泛型类时调用给泛型参数传递具体的值或者不传递任何具体的值(相当于类上加的泛型废了)
-	 * 				注意:1.泛型参数的值不能是基本类型
-	 * 					2.定义了泛型参数，创建对象时不一定要给泛型参数传递实参/给泛型参数赋具体的值	)
-	 * @return void
+	 * 测试创建泛型类时调用给泛型参数传递具体的值或者不传递任何具体的值(相当于类上加的泛型废了)
+	 *		注意:1.泛型参数的值不能是基本类型
+	 *			2.定义了泛型参数，创建对象时不一定要给泛型参数传递实参/给泛型参数赋具体的值	)
 	 * @throws
 	 */
 	@Test
@@ -92,10 +77,7 @@ public class GenericClass<T> {
 	}
 
 	/**
-	 * @Title: fun5
-	 * @Description: TODO(泛型的继承: 子类不是泛型类：需要给父类传递类型常量当给父类传递
-	 *      			    的类型常量为String时，那么在父类中所有T都会被String替换！)
-	 * @return void
+	 * 泛型的继承: 子类不是泛型类：需要给父类传递类型常量当给父类传递的类型常量为String时，那么在父类中所有T都会被String替换！)
 	 * @throws
 	 */
 	@Test
@@ -115,8 +97,7 @@ public class GenericClass<T> {
 
 
 	/**
-	 * @Title: fun6
-	 * @Description: TODO(泛型类的继承:子类是泛型类，可以给父类传递类型常量，也可以传递类型变量)
+	 * 泛型类的继承:子类是泛型类，可以给父类传递类型常量，也可以传递类型变量
 	 * @return void
 	 * @throws
 	 */

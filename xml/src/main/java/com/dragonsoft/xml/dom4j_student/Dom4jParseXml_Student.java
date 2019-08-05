@@ -1,11 +1,3 @@
-/**  
- * @Title: Dom4jParseXml_Student.java  
- * @Package com.dragonsoft.xml.dom4j_student  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月13日  
- * @version V1.0  
- */ 
 package com.dragonsoft.xml.dom4j_student;
 
 import java.io.InputStream;
@@ -20,8 +12,7 @@ import org.dom4j.io.SAXReader;
 import org.junit.Test;
 
 /**  
- * @ClassName: Dom4jParseXml_Student  
- * @Description: TODO(这里用一句话描述这个类的作用)  
+ * 这里用一句话描述这个类的作用
  * @author ronin  
  * @date 2019年3月13日  
  *    

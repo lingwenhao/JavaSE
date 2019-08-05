@@ -1,16 +1,7 @@
-/**  
- * @Title: DoubleLoopNode.java  
- * @Package com.dragonsoft.line.linked  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月31日  
- * @version V1.0  
- */ 
 package linkedlist.linkedlist_d;
 
 /**  
- * @ClassName: DoubleLoopNode  
- * @Description: TODO(双向循环链表:
+ * 双向循环链表:
  * 			当只有一个节点的时候，当前节点的下一个节点和上一个节点都是当前节点)  
  * @author ronin  
  * @date 2019年3月31日  
@@ -71,8 +62,7 @@ public class DoubleLoopNode {
 
 
 	/**
-	 * @Title: after  
-	 * @Description: TODO(增加节点)  
+	 * 增加节点
 	 * @param node
 	 * @return void
 	 * @throws
@@ -91,8 +81,7 @@ public class DoubleLoopNode {
 	}
 	
 	/**
-	 * @Title: next  
-	 * @Description: TODO(获取当前节点的下一个节点)  
+	 * 获取当前节点的下一个节点
 	 * @param 
 	 * @return DoubleLoopNode
 	 * @throws
@@ -103,8 +92,7 @@ public class DoubleLoopNode {
 	
 	
 	/**
-	 * @Title: pre  
-	 * @Description: TODO(获取当前节点的上一个节点)  
+	 * 获取当前节点的上一个节点
 	 * @param
 	 * @return DoubleLoopNode
 	 * @throws
@@ -115,8 +103,7 @@ public class DoubleLoopNode {
 	
 	
 	/**
-	 * @Title: getData  
-	 * @Description: TODO(获取当前节点中的数据)  
+	 * 获取当前节点中的数据
 	 * @param 
 	 * @return int
 	 * @throws

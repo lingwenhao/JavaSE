@@ -1,17 +1,8 @@
-/**  
- * @Title: PizzaStore.java
- * @Package com.dragonsoft.structure.bridge
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月23日  
- * @version V1.0  
- */ 
 package structure.bridge.bridge_a;
 
 
 /**  
- * @ClassName: PizzaStore
- * @Description: TODO(测试桥接模式)  
+ * 测试桥接模式
  * @author ronin  
  * @date 2019年3月23日  
  *    

@@ -1,27 +1,17 @@
-/**  
- * @Title: ThreadAPI.java  
- * @Package com.dragonsoft.api  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月28日  
- * @version V1.0  
- */ 
 package com.dragonsoft.api;
 
 import org.junit.Test;
 
-/**  
- * @ClassName: ThreadAPI  
- * @Description: TODO(Thread类的API)  
- * @author ronin  
+/**
+ * Thread类的API
+ * @author ronin
  * @date 2019年3月28日  
  *    
  */
 public class ThreadAPI {
 	/**
-	 * @Title: fun1  
-	 * @Description: TODO(获取当前类的全限定名(有两种方式):适用于非静态方法)  
-	 * @param 
+	 * 获取当前类的全限定名(有两种方式):适用于非静态方法
+	 * @param
 	 * @return void
 	 * @throws
 	 */
@@ -42,9 +32,8 @@ public class ThreadAPI {
 	}
 	
 	/**
-	 * @Title: main  
-	 * @Description: TODO(获取当前类的全限定名(有一种方式):适用于静态方法)  
-	 * @param 
+	 * 获取当前类的全限定名(有一种方式):适用于静态方法
+	 * @param
 	 * @return void
 	 * @throws
 	 */

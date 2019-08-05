@@ -1,18 +1,9 @@
-/**  
- * @Title: LoggerTest.java  
- * @Package com.dragonsoft.logger  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月24日  
- * @version V1.0  
- */ 
 package com.dragonsoft.logger;
 
 import java.util.logging.Logger;
 
 /**  
- * @ClassName: LoggerTest  
- * @Description: TODO(JDK自带的日志工具类的使用)  
+ * JDK自带的日志工具类的使用
  * @author ronin  
  * @date 2019年3月24日  
  */

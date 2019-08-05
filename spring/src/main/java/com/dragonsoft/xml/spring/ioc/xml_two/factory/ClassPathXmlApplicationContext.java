@@ -1,11 +1,3 @@
-/**  
- * @Title: ClassPathXmlApplicationContext.java  
- * @Package com.dragonsoft.xml.spring.xmltwo.factory  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月15日  
- * @version V1.0  
- */ 
 package com.dragonsoft.xml.spring.ioc.xml_two.factory;
 
 
@@ -26,9 +18,7 @@ import com.dragonsoft.xml.spring.ioc.xml_two.parse.ConfigManager;
 import com.dragonsoft.xml.spring.ioc.xml_two.utils.IntrospectUtils;
 
 /**  
- * @ClassName: ClassPathXmlApplicationContext  
- * @Description: TODO(这里用一句话描述这个类的作用)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月15日  
  *    
  */
@@ -73,8 +63,6 @@ public class ClassPathXmlApplicationContext implements BeanFactory{
 
 	/**
 	 * @return   
-	 * @Title: createBean  
-	 * @Description: TODO(这里用一句话描述这个方法的作用)  
 	 * @param bean
 	 * @return void
 	 * @throws  

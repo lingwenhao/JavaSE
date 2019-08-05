@@ -1,16 +1,7 @@
-/**  
- * @Title: StringBuilderApi.java  
- * @Package com.dragonsoft.api  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年4月14日  
- * @version V1.0  
- */ 
 package com.dragonsoft.api;
 
 /**  
- * @ClassName: StringBuilderApi  
- * @Description: TODO(String、StringBuffer、StringBuilder区别)  
+ * String、StringBuffer、StringBuilder区别
  * @author ronin  
  * @date 2019年4月14日  
  *    

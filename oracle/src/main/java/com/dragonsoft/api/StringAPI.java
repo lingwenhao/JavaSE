@@ -1,8 +1,5 @@
 /**  
- * @Title: StringAPI.java  
- * @Package com.dragonsoft.api  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月11日  
  * @version V1.0  
  */ 
@@ -15,18 +12,16 @@ import java.util.List;
 import org.junit.Test;
 
 /**  
- * @ClassName: StringAPI  
- * @Description: TODO(String类高级API)  
- * @author ronin  
+ * String类高级API
+ * @author ronin
  * @date 2019年3月11日  
  *    
  */
 public class StringAPI {
 	
 	/**
-	 * @Title: join  
-	 * @Description: TODO(String的Join方法:使用指定的拼接符号把数组/集合中每一个元素拼接起来,拼成一个字符串)  
-	 * @param 
+	 * String的Join方法:使用指定的拼接符号把数组/集合中每一个元素拼接起来,拼成一个字符串
+	 * @param
 	 * @return void
 	 * @throws
 	 */
@@ -52,8 +47,7 @@ public class StringAPI {
 	
 	
 	/**
-	 * @Title: equalsIgnoreCase  
-	 * @Description: TODO(判断两个字符串是否相等，不区分大小写的情况)  
+	 * 判断两个字符串是否相等，不区分大小写的情况
 	 * @param
 	 * @return String
 	 * @throws

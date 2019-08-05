@@ -1,11 +1,3 @@
-/**  
- * @Title: Dom4jUtils.java  
- * @Package com.dragonsoft.xml.dom4j  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月8日  
- * @version V1.0  
- */ 
 package com.dragonsoft.xml.dom4j;
 
 import java.io.FileOutputStream;
@@ -16,8 +8,7 @@ import org.dom4j.io.SAXReader;
 import org.dom4j.io.XMLWriter;
 
 /**  
- * @ClassName: Dom4jUtils  
- * @Description: TODO(Dom4j解析xml工具类)  
+ * Dom4j解析xml工具类
  * @author ronin  
  * @date 2019年3月8日  
  *    

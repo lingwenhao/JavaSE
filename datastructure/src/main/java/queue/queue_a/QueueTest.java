@@ -24,6 +24,6 @@ public class QueueTest {
         System.out.println("出队列前队列头:"+queue.pool()+"\t执行出队列头操作->");
         System.out.println("出队列前队列头:"+queue.pool()+"\t执行出队列头操作->");
         //System.out.println("出队列前队列头:"+queue.pool()+"\t执行出队列头操作->");
-        queue.add(4);
+        //queue.add(4);
     }
 }

@@ -1,16 +1,7 @@
-/**  
- * @Title: ModifyEnum.java  
- * @Package com.dragonsoft.reflect  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月11日  
- * @version V1.0  
- */ 
 package com.dragonsoft.reflect;
 
 /**  
- * @ClassName: ModifyEnum  
- * @Description: TODO(修饰符枚举)  
+ * 修饰符枚举
  * @author ronin  
  * @date 2019年3月11日  
  */

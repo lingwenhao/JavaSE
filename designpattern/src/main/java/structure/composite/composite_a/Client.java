@@ -1,17 +1,7 @@
-/**  
- * @Title: PizzaStore.java
- * @Package com.dragonsoft.structure.composite
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月23日  
- * @version V1.0  
- */ 
 package structure.composite.composite_a;
 
 /**  
- * @ClassName: PizzaStore
- * @Description: TODO(这里用一句话描述这个类的作用)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月23日  
  *    
  */

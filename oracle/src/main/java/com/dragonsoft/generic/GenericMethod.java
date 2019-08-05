@@ -1,8 +1,5 @@
 /**  
- * @Title: GenericFunction.java  
- * @Package com.dragonsoft.generic  
- * @Description: TODO(泛型使用在方法上)
- * @author ronin  
+ * @author ronin
  * @date 2019年3月10日  
  * @version V1.0  
  */ 
@@ -13,9 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 /**  
- * @ClassName: GenericMethod 
- * @Description: TODO(泛型使用在方法上)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月10日  
  *    
  */
@@ -51,8 +46,7 @@ public class GenericMethod {
 	}
 	
 	/**
-	 * @Title: fun1 
-	 * @Description: TODO(正确的泛型方法定义格式)  
+	 * 正确的泛型方法定义格式
 	 * @param @param t
 	 * @return void
 	 * @throws
@@ -62,8 +56,7 @@ public class GenericMethod {
 	}
 	
 	/**
-	 * @Title: fun2  
-	 * @Description: TODO(错误的泛型方法定义格式)  
+	 * 错误的泛型方法定义格式
 	 * @param @param t
 	 * @return void
 	 * @throws
@@ -73,8 +66,7 @@ public class GenericMethod {
 //	}
 	
 	/**
-	 * @Title: func  
-	 * @Description: TODO(定义泛型方法:
+	 * 定义泛型方法:
 	 * 		1.格式:
 	 * 			修饰符 <类型参数列表> 返回类型 方法名(形参列表) { 方法体 }
 	 * 		2.泛型作用域:
@@ -106,9 +98,6 @@ public class GenericMethod {
 	}
 	
 	/**
-	 * @Title: swapGeneric
-	 * @Description: TODO()
-	 * @param swapNums
 	 * @param i
 	 * @param j
 	 * @return T[]
@@ -121,8 +110,7 @@ public class GenericMethod {
 		return arr;
 	}
 	/**  
-	 * @Title: swap  
-	 * @Description: TODO(交换两个字符串)  
+	 * 交换两个字符串
 	 * @param strs
 	 * @param i
 	 * @param j
@@ -136,8 +124,7 @@ public class GenericMethod {
 		return strs;
 	}
 	/**  
-	 * @Title: swap  
-	 * @Description: TODO(交换两个整数)  
+	 * 交换两个整数
 	 * @param nums
 	 * @param i
 	 * @param j 参数  

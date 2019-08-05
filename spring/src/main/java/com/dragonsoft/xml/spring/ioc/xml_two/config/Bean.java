@@ -1,18 +1,10 @@
-/**  
- * @Title: Bean.java  
- * @Package com.dragonsoft.xml.spring.ioc.xmltwo.config  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月16日  
- * @version V1.0  
- */ 
 package com.dragonsoft.xml.spring.ioc.xml_two.config;
 
 import java.util.List;
 
 /**  
  * @ClassName: Bean  
- * @Description: TODO(描述xml中<bean id="" class=""/>标签
+ * 描述xml中<bean id="" class=""/>标签
  * 			注意:一个<bean/>有多个<property/>标签)  
  * @author ronin  
  * @date 2019年3月16日  
@@ -29,7 +21,6 @@ public class Bean {
 	 */ 
 	public Bean() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	/**  
 	 * 创建一个新的实例 Bean.  

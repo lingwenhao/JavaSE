@@ -1,11 +1,3 @@
-/**  
- * @Title: ReflectPerson.java  
- * @Package com.dragonsoft.reflect  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月10日  
- * @version V1.0  
- */ 
 package com.dragonsoft.reflect;
 
 import java.lang.reflect.Constructor;
@@ -15,8 +7,7 @@ import java.lang.reflect.Method;
 import org.junit.Test;
 
 /**  
- * @ClassName: ReflectPerson  
- * @Description: TODO(使用反射操作Person类)  
+ * 使用反射操作Person类
  * @author ronin  
  * @date 2019年3月10日  
  *    
@@ -37,8 +28,7 @@ public class ReflectPerson {
 	
 	/**
 	 * @throws ClassNotFoundException 
-	 * @Title: getPersonClazz  
-	 * @Description: TODO(四种方式获得反射对象/Class类:反射必走无参(包括父类无参、子类无参))  
+	 * 四种方式获得反射对象/Class类:反射必走无参(包括父类无参、子类无参)
 	 * @param
 	 * @return void
 	 * @throws
@@ -63,8 +53,7 @@ public class ReflectPerson {
 	
 	
 	/**
-	 * @Title: fun1  
-	 * @Description: TODO(反射操作无参构造方法,获取对象)  
+	 * 反射操作无参构造方法,获取对象
 	 * @throws Exception
 	 * @param
 	 * @return void
@@ -101,8 +90,7 @@ public class ReflectPerson {
 	}
 	
 	/**
-	 * @Title: fun2  
-	 * @Description: TODO(反射操作有参构造方法,获取对象)  
+	 * 反射操作有参构造方法,获取对象
 	 * @throws Exception
 	 * @param
 	 * @return void
@@ -127,8 +115,7 @@ public class ReflectPerson {
 	}
 	
 	/**
-	 * @Title: fun3  
-	 * @Description: TODO(反射操作类中的私有属性)  
+	 * 反射操作类中的私有属性
 	 * @throws Exception
 	 * @param 
 	 * @return void
@@ -170,8 +157,7 @@ public class ReflectPerson {
 
 	
 	/**
-	 * @Title: fun4  
-	 * @Description: TODO(使用反射操作public修饰的方法，不是private修饰的方法)  
+	 * 使用反射操作public修饰的方法，不是private修饰的方法
 	 * @throws Exception 参数  
 	 * @param 
 	 * @return void
@@ -193,8 +179,7 @@ public class ReflectPerson {
 	
 	
 	/**
-	 * @Title: fun5  
-	 * @Description: TODO(使用反射操作私有方法)  
+	 * 使用反射操作私有方法
 	 * @throws Exception
 	 * @return void
 	 * @throws
@@ -214,8 +199,7 @@ public class ReflectPerson {
 	}
 	
 	/**
-	 * @Title: fun6  
-	 * @Description: TODO(使用反射操作静态方法)  
+	 * 使用反射操作静态方法
 	 * @throws Exception
 	 * @return void
 	 * @throws
@@ -234,8 +218,7 @@ public class ReflectPerson {
 	} 
 	
 	/**
-	 * @Title: fun7  
-	 * @Description: TODO(使用反射获取属性修饰符:public/private)  
+	 * 使用反射获取属性修饰符:public/private
 	 * @throws Exception
 	 * @return void
 	 * @throws
@@ -261,8 +244,7 @@ public class ReflectPerson {
 	/**
 	 * @throws SecurityException 
 	 * @throws NoSuchMethodException 
-	 * @Title: fun8  
-	 * @Description: TODO(获取class对象/构造器加强:直接可以获取到指定类型的Class对象和构造器，不用再强行转换了)  
+	 * 获取class对象/构造器加强:直接可以获取到指定类型的Class对象和构造器，不用再强行转换了
 	 * @param 
 	 * @return void
 	 * @throws
@@ -281,8 +263,7 @@ public class ReflectPerson {
 	}
 	
 	/**
-	 * @Title: fun9  
-	 * @Description: TODO(获取数组的class的hashcode的值取决于数组的维度，与数组的长度无关)  
+	 * 获取数组的class的hashcode的值取决于数组的维度，与数组的长度无关
 	 * @param 
 	 * @return void
 	 * @throws

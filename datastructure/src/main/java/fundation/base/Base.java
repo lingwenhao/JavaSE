@@ -1,26 +1,16 @@
-/**  
- * @Title: Base.java  
- * @Package com.dragonsoft.base  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月9日  
- * @version V1.0  
- */ 
 package fundation.base;
 
 import org.junit.Test;
 
 /**  
- * @ClassName: Base  
- * @Description: TODO(数据结构基础)  
+ * 数据结构基础
  * @author ronin  
  * @date 2019年3月9日  
  *    
  */
 public class Base {
 	/**
-	 * @Title: fun1  
-	 * @Description: TODO(测试位运算)  
+	 * 测试位运算
 	 * @return void
 	 * @throws
 	 */
@@ -41,8 +31,7 @@ public class Base {
 	
 	
 	/**
-	 * @Title: fun2  
-	 * @Description: TODO(测试Java格式化输出)  
+	 * 测试Java格式化输出
 	 * @return void
 	 * @throws
 	 */

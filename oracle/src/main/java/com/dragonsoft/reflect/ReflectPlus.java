@@ -1,22 +1,11 @@
-/**  
- * @Title: ReflectPlus.java  
- * @Package com.dragonsoft.reflect  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月29日  
- * @version V1.0  
- */ 
 package com.dragonsoft.reflect;
 
-import java.lang.reflect.Array;
 import java.lang.reflect.Field;
-import java.util.Arrays;
 
 import org.junit.Test;
 
 /**  
- * @ClassName: ReflectPlus  
- * @Description: TODO(反射深入)  
+ * 反射深入
  * @author ronin  
  * @date 2019年3月29日  
  *    
@@ -24,10 +13,8 @@ import org.junit.Test;
 public class ReflectPlus {
 
 	/**
-	 * @Title: fun  
-	 * @Description: TODO(.class和getClass()区别:
-	 * 			.getClass()明显是一个方法，是需要创建对象才能调用的)  
-	 * @param 
+	 * .class和getClass()区别:.getClass()明显是一个方法，是需要创建对象才能调用的
+	 * @param
 	 * @return void
 	 * @throws
 	 */

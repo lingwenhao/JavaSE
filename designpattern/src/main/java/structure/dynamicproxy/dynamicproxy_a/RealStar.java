@@ -1,16 +1,7 @@
-/**  
- * @Title: RealStar.java  
- * @Package structure.staticproxy
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月23日  
- * @version V1.0  
- */ 
 package structure.dynamicproxy.dynamicproxy_a;
 
 /**  
- * @ClassName: RealStar  
- * @Description: TODO(真实的歌手)  
+ * 真实的歌手
  * @author ronin  
  * @date 2019年3月23日  
  *    

@@ -41,8 +41,7 @@ public class utils {
     }
 
     /***
-     * @Title: arraycopy
-     * @Description: TODO(复制数组)
+     * 复制数组
      * @param src 源数组
      * @param srcPos 源数组要复制的起始位置
      * @param dest 目的数组
@@ -54,8 +53,7 @@ public class utils {
     //public static void arraycopy(Object src,int srcPos,Object dest,int destPos,int length);
 
     /**
-     * @Title: growArray
-     * @Description: TODO(数组扩容方法，此处不使用泛型也可以，则返回值为Object类型数据(调用方法时要进行类型转换)，而非T类型数组)
+     * 数组扩容方法，此处不使用泛型也可以，则返回值为Object类型数据(调用方法时要进行类型转换)，而非T类型数组
      * @param src 原数组
      * @param size 新数组的长度
      * @return T

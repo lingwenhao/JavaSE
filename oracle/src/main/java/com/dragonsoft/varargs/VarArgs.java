@@ -1,22 +1,10 @@
-/**  
- * @Title: VarArgs.java  
- * @Package com.dragonsoft.varargs  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月28日  
- * @version V1.0  
- */ 
 package com.dragonsoft.varargs;
 
-import java.awt.print.Printable;
-
-import javax.print.attribute.standard.PrinterName;
 
 import org.junit.Test;
 
 /**  
- * @ClassName: VarArgs  
- * @Description: TODO(可变参数)  
+ * 可变参数
  * @author ronin  
  * @date 2019年3月28日  
  *    
@@ -54,7 +42,7 @@ public class VarArgs {
 
 	/**  
 	 * @Title: testVarArgs1  
-	 * @Description: TODO(接收并处理可变参数:
+	 * 接收并处理可变参数:
 	 * 			1.只有最后一个形参可以作为可变参数
 	 * 			2.可变参数类型为:多个String字符串/一个String[])  
 	 * @param 
@@ -74,8 +62,7 @@ public class VarArgs {
 	
 	
 	/**  
-	 * @Title: testVarArgs2  
-	 * @Description: TODO(接收转发可变参数)
+	 * 接收转发可变参数
 	 * @param 
 	 * @return void
 	 * @throws  
@@ -87,8 +74,7 @@ public class VarArgs {
 	
 	/**
 	 * @param <T>  
-	 * @Title: testVarArgs3  
-	 * @Description: TODO(可变参数和泛型转发使用)  
+	 * 可变参数和泛型转发使用
 	 * @param 
 	 * @return void
 	 * @throws  

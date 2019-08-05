@@ -1,17 +1,7 @@
-/**  
- * @Title: Node.java  
- * @Package com.dragonsoft.line.linked  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月30日  
- * @version V1.0  
- */ 
 package linkedlist.linkedlist_d;
 
 /**  
- * @ClassName: Node  
- * @Description: TODO(模拟单链表)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月30日  
  *    
  */
@@ -71,8 +61,7 @@ public class Node<T> {
 	}
 	
 	/**
-	 * @Title: append  
-	 * @Description: TODO(为当前节点追加节点)  
+	 * 为当前节点追加节点
 	 * @param node
 	 * @return Node<T>
 	 * @throws
@@ -101,8 +90,7 @@ public class Node<T> {
 //	}
 	
 	/**
-	 * @Title: next  
-	 * @Description: TODO(获取下一个节点)  
+	 * 获取下一个节点
 	 * @param
 	 * @return Node
 	 * @throws
@@ -113,8 +101,7 @@ public class Node<T> {
 	
 	
 	/**
-	 * @Title: getData  
-	 * @Description: TODO(获取节点中的数据)  
+	 * 获取节点中的数据
 	 * @param @return
 	 * @return T
 	 * @throws
@@ -124,8 +111,7 @@ public class Node<T> {
 	}
 	
 	/**
-	 * @Title: isLast  
-	 * @Description: TODO(判断当前节点是不是最后一个节点)  
+	 * 判断当前节点是不是最后一个节点
 	 * @param @return
 	 * @return boolean
 	 * @throws
@@ -136,8 +122,7 @@ public class Node<T> {
 	
 	
 	/**
-	 * @Title: removeNext  
-	 * @Description: TODO(删除下一个节点)  
+	 * 删除下一个节点
 	 * @param 
 	 * @return void
 	 * @throws
@@ -151,8 +136,7 @@ public class Node<T> {
 	}
 	
 	/**
-	 * @Title: after  
-	 * @Description: TODO(插入一个节点作为当前节点的下一个节点)  
+	 * 插入一个节点作为当前节点的下一个节点
 	 * @param node
 	 * @return void
 	 * @throws
@@ -167,8 +151,7 @@ public class Node<T> {
 		
 	}
 	/**
-	 * @Title: show  
-	 * @Description: TODO(打印所有节点)  
+	 * 打印所有节点
 	 * @param 
 	 * @return void
 	 * @throws

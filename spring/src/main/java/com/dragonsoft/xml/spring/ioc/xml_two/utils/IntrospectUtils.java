@@ -1,11 +1,3 @@
-/**  
- * @Title: BeanUtils.java  
- * @Package com.dragonsoft.xml.spring.ioc.xmltwo.utils  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月17日  
- * @version V1.0  
- */ 
 package com.dragonsoft.xml.spring.ioc.xml_two.utils;
 
 import java.beans.BeanInfo;
@@ -16,17 +8,14 @@ import java.lang.reflect.Method;
 
 
 /**  
- * @ClassName: BeanUtils  
- * @Description: TODO(这里用一句话描述这个类的作用)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月17日  
  */
 public class IntrospectUtils {
 	
 	
 	/**
-	 * @Title: getWriteMethod  
-	 * @Description: TODO(JavaBean内省技术获取方法对象)  
+	 * JavaBean内省技术获取方法对象
 	 * @param bean
 	 * @param bean
 	 * @return Method

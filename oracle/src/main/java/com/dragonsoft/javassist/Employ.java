@@ -1,8 +1,5 @@
 /**  
- * @Title: Employ.java  
- * @Package com.dragonsoft.javassist  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月26日  
  * @version V1.0  
  */ 
@@ -10,8 +7,7 @@ package com.dragonsoft.javassist;
 
 
 /**  
- * @ClassName: Employ  
- * @Description: TODO(测试JavaSsit API用到的实体)  
+ * 测试JavaSsit API用到的实体
  * @author ronin  
  * @date 2019年3月26日  
  *    
@@ -26,12 +22,10 @@ public class Employ {
 	 */ 
 	public Employ() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	
 	/**
-	 * @Title: sayHello  
-	 * @Description: TODO(使用javassist调用这个方法)  
+	 * 使用javassist调用这个方法
 	 * @param @param param
 	 * @param @return
 	 * @return String

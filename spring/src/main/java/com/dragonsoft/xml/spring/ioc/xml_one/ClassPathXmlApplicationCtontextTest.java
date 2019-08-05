@@ -1,19 +1,9 @@
-/**  
- * @Title: ClassPathXmlApplicationCtontextTest.java  
- * @Package com.dragonsoft.xml.spring  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月13日  
- * @version V1.0  
- */ 
 package com.dragonsoft.xml.spring.ioc.xml_one;
 
 import org.dom4j.DocumentException;
 
 /**  
- * @ClassName: ClassPathXmlApplicationCtontextTest  
- * @Description: TODO(这里用一句话描述这个类的作用)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月13日  
  *    
  */

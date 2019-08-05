@@ -1,8 +1,5 @@
 /**  
- * @Title: BeanMatch.java  
- * @Package com.dragonsoft.xml.spring  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月14日  
  * @version V1.0  
  */ 
@@ -11,9 +8,8 @@ package com.dragonsoft.xml.spring.ioc.xml_one;
 import java.util.HashMap;
 
 /**  
- * @ClassName: BeanMatch  
- * @Description: TODO(描述class/beanId和其子属性的对应关系)  
- * @author ronin  
+ * 描述class/beanId和其子属性的对应关系
+ * @author ronin
  * @date 2019年3月14日  
  *    
  */

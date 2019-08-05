@@ -1,11 +1,3 @@
-/**  
- * @Title: ClassPathXmlApplicationCtontext.java  
- * @Package com.dragonsoft.xml.spring  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月13日  
- * @version V1.0  
- */ 
 package com.dragonsoft.xml.spring.ioc.xml_one;
 
 import java.io.InputStream;
@@ -25,8 +17,7 @@ import org.dom4j.io.SAXReader;
 
 
 /**  
- * @ClassName: ClassPathXmlApplicationCtontext  
- * @Description: TODO(模拟spring框架ClassPathXmlApplicationContext)  
+ * 模拟spring框架ClassPathXmlApplicationContext
  * @author ronin  
  * @date 2019年3月13日  
  *    
@@ -60,8 +51,6 @@ public class ClassPathXmlApplicationCtontext {
 	 * @throws InstantiationException 
 	 * @throws ClassNotFoundException 
 	 * @throws DocumentException 
-	 * @Title: getBean  
-	 * @Description: TODO(通过id查找对应的bean)  
 	 * @param beanId
 	 * @return Object
 	 * @throws
@@ -105,8 +94,7 @@ public class ClassPathXmlApplicationCtontext {
 	}
 	
 	/**
-	 * @Title: getBean  
-	 * @Description: TODO(对getBean方法进行重载增强)  
+	 * 对getBean方法进行重载增强
 	 * @param beanId
 	 * @param  t
 	 * @throws ClassNotFoundException
@@ -125,8 +113,7 @@ public class ClassPathXmlApplicationCtontext {
 	}
 	
 	/**  
-	 * @Title: findBeanClassByBeanId  
-	 * @Description: TODO(查找是否有和该beanId对应的节点，如果有，返回该节点class属性值)  
+	 * 查找是否有和该beanId对应的节点，如果有，返回该节点class属性值
 	 * @param xmlElements
 	 * @param beanId
 	 * @return void
@@ -168,8 +155,7 @@ public class ClassPathXmlApplicationCtontext {
 	}
 
 	/**
-	 * @Title: parseXml  
-	 * @Description: TODO(解析xml文件)  
+	 * 解析xml文件
 	 * @param xmlPath
 	 * @throws DocumentException
 	 * @return List<Element>

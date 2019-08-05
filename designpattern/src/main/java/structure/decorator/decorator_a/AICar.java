@@ -1,16 +1,7 @@
-/**  
- * @Title: AICar.java  
- * @Package com.dragonsoft.structure.decorator
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月23日  
- * @version V1.0  
- */ 
 package structure.decorator.decorator_a;
 
 /**  
- * @ClassName: AICar  
- * @Description: TODO(具体装饰器/具体装饰角色)  
+ * 具体装饰器/具体装饰角色
  * @author ronin  
  * @date 2019年3月23日  
  *    
@@ -39,8 +30,7 @@ public class AICar extends SuperCar{
 	}
 
 	/**  
-	 * @Title: autoRun  
-	 * @Description: TODO(增强的功能)  
+	 * 增强的功能
 	 * @param 
 	 * @return void
 	 * @throws  

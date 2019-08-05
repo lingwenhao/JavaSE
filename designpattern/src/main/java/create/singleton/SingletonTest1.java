@@ -1,11 +1,3 @@
-/**  
-* @Title: SingletonTest1.java
-* @Package create.singleton
-* @Description: TODO(用一句话描述该文件做什么)  
-* @author ronin  
-* @date 2019年3月2日  
-* @version V1.0  
-*/ 
 package create.singleton;
 
 /**  

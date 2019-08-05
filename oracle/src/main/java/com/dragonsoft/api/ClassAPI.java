@@ -1,30 +1,20 @@
-/**  
- * @Title: Class.java  
- * @Package com.dragonsoft.api  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月28日  
- * @version V1.0  
- */ 
 package com.dragonsoft.api;
 
 import org.junit.Test;
 
 import com.sun.org.apache.xpath.internal.functions.Function3Args;
 
-/**  
- * @ClassName: ClassAPI  
- * @Description: TODO(java.lang.Class<T>高级API)  
- * @author ronin  
+/**
+ * java.lang.Class<T>高级API
+ * @author ronin
  * @date 2019年3月28日  
  *    
  */
 public class ClassAPI {
 	
 	/**
-	 * @Title: isArray  
-	 * @Description: TODO(根据Class信息判断一个对象是不是数组)  
-	 * @param 
+	 * 根据Class信息判断一个对象是不是数组
+	 * @param
 	 * @return void
 	 * @throws
 	 */
@@ -37,9 +27,8 @@ public class ClassAPI {
 	}
 	
 	/**
-	 * @Title: getSuperClass()  
-	 * @Description: TODO(根据Class信息获取该Class对象的SuperClass信息)  
-	 * @param 
+	 * 根据Class信息获取该Class对象的SuperClass信息
+	 * @param
 	 * @return void
 	 * @throws
 	 */
@@ -57,9 +46,8 @@ public class ClassAPI {
 	}
 	
 	/**
-	 * @Title: getComponentType  
-	 * @Description: TODO(获取返回表示数组组件类型的 Class)  
-	 * @param 
+	 * 获取返回表示数组组件类型的 Class
+	 * @param
 	 * @return void
 	 * @throws
 	 */
@@ -78,8 +66,7 @@ public class ClassAPI {
 	}
 
 	/**
-	 * @Title: isEnum  
-	 * @Description: TODO(判断对象是否枚举)  
+	 * 判断对象是否枚举)
 	 * @param 
 	 * @return void
 	 * @throws

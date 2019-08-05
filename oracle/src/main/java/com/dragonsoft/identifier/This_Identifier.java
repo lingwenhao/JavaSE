@@ -1,18 +1,9 @@
-/**  
- * @Title: This_Identifier.java  
- * @Package com.dragonsoft.identifier  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年4月10日  
- * @version V1.0  
- */ 
 package com.dragonsoft.identifier;
 
 
 /**  
- * @ClassName: This_Identifier  
- * @Description: TODO(this的用法)  
- * @author ronin  
+ * this的用法
+ * @author ronin
  * @date 2019年4月10日  
  */
 public class This_Identifier {

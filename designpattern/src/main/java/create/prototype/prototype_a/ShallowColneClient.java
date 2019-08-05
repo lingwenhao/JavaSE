@@ -1,8 +1,5 @@
 /**  
- * @Title: PizzaStore.java
- * @Package com.dragonsoft.create.prototype  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月23日  
  * @version V1.0  
  */ 
@@ -11,8 +8,7 @@ package create.prototype.prototype_a;
 import java.util.Date;
 
 /**  
- * @ClassName: ShallowColneClient  
- * @Description: TODO(客户端:测试浅客隆/浅拷贝模式的原型模式)  
+ * 客户端:测试浅客隆/浅拷贝模式的原型模式
  * @author ronin  
  * @date 2019年3月23日  
  *    

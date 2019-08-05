@@ -1,8 +1,5 @@
 /**  
- * @Title: ClassUtils.java  
- * @Package com.dragonsoft.xml.spring.ioc.anno_two.utils  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月20日  
  * @version V1.0  
  */ 
@@ -21,8 +18,7 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
 /**  
- * @ClassName: ClassUtils  
- * @Description: TODO(反射工具类)  
+ * 反射工具类
  * @author ronin  
  * @date 2019年3月20日  
  *    

@@ -1,11 +1,3 @@
-/**  
- * @Title: Rhino.java  
- * @Package com.dragonsoft.rhino  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月26日  
- * @version V1.0  
- */ 
 package com.dragonsoft.rhino;
 
 import javax.script.Invocable;
@@ -14,8 +6,7 @@ import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 
 /**  
- * @ClassName: RhinoEngin  
- * @Description: TODO(Java的JavaScript执行引擎)  
+ * Java的JavaScript执行引擎
  * @author ronin  
  * @date 2019年3月26日  
  *    

@@ -1,11 +1,3 @@
-/**  
- * @Title: ReflectJunit.java  
- * @Package com.dragonsoft.reflect.application  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月14日  
- * @version V1.0  
- */ 
 package com.dragonsoft.reflectanno.application_junit;
 
 import java.lang.reflect.InvocationTargetException;
@@ -13,8 +5,7 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 
 /**  
- * @ClassName: ReflectJunit  
- * @Description: TODO(反射模拟junit)  
+ * 反射模拟junit
  * @author ronin  
  * @date 2019年3月14日  
  *    

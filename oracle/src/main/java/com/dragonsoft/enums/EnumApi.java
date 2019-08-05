@@ -1,19 +1,10 @@
-/**  
- * @Title: EnumApi.java  
- * @Package com.dragonsoft.enums  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月10日  
- * @version V1.0  
- */ 
 package com.dragonsoft.enums;
 
 import org.junit.Test;
 
 /**  
- * @ClassName: EnumApi  
- * @Description: TODO(枚举API)  
- * @author ronin  
+ * 枚举API
+ * @author ronin
  * @date 2019年3月10日  
  *    
  */
@@ -32,9 +23,7 @@ public class EnumApi {
 	
 	
 	/**
-	 * @Title: fun1  
-	 * @Description: TODO(知道枚举的对象,得到枚举的名称和下标)  
-	 * @param   
+	 * 知道枚举的对象,得到枚举的名称和下标
 	 * @return void
 	 * @throws
 	 */
@@ -51,10 +40,8 @@ public class EnumApi {
 	}
 	
 	/**
-	 * @Title: fun2  
-	 * @Description: TODO(知道枚举的名称,得到枚举的对象和下标)  
-	 * @param  参数  
-	 * @return void    返回类型  
+	 * 知道枚举的名称,得到枚举的对象和下标
+	 * @return void    返回类型
 	 * @throws
 	 */
 	@Test
@@ -71,10 +58,8 @@ public class EnumApi {
 	}
 	
 	/**
-	 * @Title: fun3  
-	 * @Description: TODO(知道枚举下标，得到枚举名称和对象)  
-	 * @param  参数  
-	 * @return void    返回类型  
+	 * 知道枚举下标，得到枚举名称和对象
+	 * @return void    返回类型
 	 * @throws
 	 */
 	@Test

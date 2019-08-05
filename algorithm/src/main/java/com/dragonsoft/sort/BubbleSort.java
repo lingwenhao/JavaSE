@@ -1,11 +1,3 @@
-/**  
-* @Title: BubbleSort.java  
-* @Package com.dragonsoft.sort  
-* @Description: TODO(用一句话描述该文件做什么)  
-* @author ronin  
-* @date 2019年3月2日  
-* @version V1.0  
-*/ 
 package com.dragonsoft.sort;
 
 import org.junit.Test;
@@ -14,9 +6,7 @@ import java.util.Arrays;
 
 
 /**  
-* @ClassName: BubbleSort  
-* @Description: TODO(这里用一句话描述这个类的作用)  
-* @author ronin  
+* @author ronin
 * @date 2019年3月2日  
 *    
 */

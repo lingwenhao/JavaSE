@@ -1,11 +1,3 @@
-/**  
- * @Title: IntrospectPerson.java  
- * @Package com.dragonsoft.reflect  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月16日  
- * @version V1.0  
- */ 
 package com.dragonsoft.reflect;
 
 import java.beans.BeanInfo;
@@ -18,8 +10,7 @@ import java.lang.reflect.Method;
 import org.junit.Test;
 
 /**  
- * @ClassName: IntrospectPerson  
- * @Description: TODO(JavaBean的内省)  
+ * JavaBean的内省
  * @author ronin  
  * @date 2019年3月16日  
  *    

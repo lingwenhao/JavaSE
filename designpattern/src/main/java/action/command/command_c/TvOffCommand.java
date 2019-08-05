@@ -1,4 +1,4 @@
-package action.command.command_a;
+package action.command.command_c;
 
 public class TvOffCommand implements Command{
 

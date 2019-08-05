@@ -1,11 +1,3 @@
-/**  
- * @Title: AnnoReflect.java  
- * @Package com.dragonsoft.anno  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月14日  
- * @version V1.0  
- */ 
 package com.dragonsoft.reflect;
 
 import java.lang.annotation.Annotation;
@@ -17,8 +9,7 @@ import java.lang.reflect.Method;
 import org.junit.Test;
 
 /**  
- * @ClassName: AnnoReflect  
- * @Description: TODO(反射应用在注解上)  
+ * 反射应用在注解上
  * @author ronin  
  * @date 2019年3月14日  
  */
@@ -50,8 +41,7 @@ public class AnnoReflect {
 	 */
 	
 	/**
-	 * @Title: fun1  
-	 * @Description: TODO(使用反射读取类上的注解/单个注解)  
+	 * 使用反射读取类上的注解/单个注解
 	 * @return void
 	 * @throws
 	 */
@@ -75,7 +65,7 @@ public class AnnoReflect {
 	 * @throws SecurityException 
 	 * @throws NoSuchFieldException 
 	 * @Title: fun2  
-	 * @Description: TODO(使用反射读取属性上的注解/单个注解)  
+	 * 使用反射读取属性上的注解/单个注解
 	 * @return void
 	 * @throws
 	 */
@@ -102,7 +92,7 @@ public class AnnoReflect {
 	 * @throws SecurityException 
 	 * @throws NoSuchMethodException 
 	 * @Title: fun3  
-	 * @Description: TODO(使用反射读取方法上的注解/单个注解)  
+	 * 使用反射读取方法上的注解/单个注解
 	 * @return void
 	 * @throws
 	 */
@@ -128,7 +118,7 @@ public class AnnoReflect {
 	 * @throws SecurityException 
 	 * @throws NoSuchMethodException 
 	 * @Title: fun3  
-	 * @Description: TODO(使用反射读取方法上的注解/多个注解)  
+	 * 使用反射读取方法上的注解/多个注解
 	 * @return void
 	 * @throws
 	 */

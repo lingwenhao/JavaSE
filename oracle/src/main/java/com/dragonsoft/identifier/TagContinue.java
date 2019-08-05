@@ -1,16 +1,7 @@
-/**  
- * @Title: TagContinue.java  
- * @Package com.dragonsoft.base  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年4月10日  
- * @version V1.0  
- */ 
 package com.dragonsoft.identifier;
 
 /**  
- * @ClassName: TagContinue  
- * @Description: TODO(模拟goto:打印101到150之间的质数)  
+ * 模拟goto:打印101到150之间的质数
  * @author ronin  
  * @date 2019年4月10日  
  *    

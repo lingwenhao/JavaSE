@@ -1,11 +1,3 @@
-/**  
- * @Title: GenericReflect.java  
- * @Package com.dragonsoft.generic  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月14日  
- * @version V1.0  
- */ 
 package com.dragonsoft.reflect;
 
 import java.lang.reflect.ParameterizedType;
@@ -14,8 +6,7 @@ import java.lang.reflect.Type;
 import org.junit.Test;
 
 /**  
- * @ClassName: GenericReflect  
- * @Description: TODO(使用反射获取继承/实现 时传递的类型参数
+ * 使用反射获取继承/实现 时传递的类型参数
  * 						原理:1.反射操作类，必走无参构造方法
  * 							2.继承环境下，先走父类无参构造，再走子类无参构造)  
  * @author ronin  
@@ -24,8 +15,7 @@ import org.junit.Test;
  */
 public class GenericReflect1 {
 	/**
-	 * @Title: fun  
-	 * @Description: TODO(测试继承环境下代码执行顺序
+	 * 测试继承环境下代码执行顺序
 	 * 		顺序:父类静态代码块儿-->子类静态代码块儿-->父类代码块儿-->父类无参构造
 	 * 			-->子类代码块儿-->子类无参构造-->子类有参构造)  
 	 * 		多个静态代码块儿:字父类静态代码块按照书写顺序执行，在子类静态代码块儿之前执行
@@ -136,8 +126,7 @@ class B<T>{
 }
 
 /**
- * @ClassName: BB  
- * @Description: TODO(类型参数为常量:Stirng)  
+ * 类型参数为常量:Stirng
  * @author ronin  
  * @date 2019年3月14日  
  *
@@ -161,8 +150,7 @@ class BB extends B<String>{
 }
 
 /**
- * @ClassName: BBB  
- * @Description: TODO(类型参数为常量:Integer)  
+ * 类型参数为常量:Integer
  * @author ronin  
  * @date 2019年3月14日  
  *

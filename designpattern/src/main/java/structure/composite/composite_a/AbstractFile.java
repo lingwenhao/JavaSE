@@ -1,11 +1,3 @@
-/**  
- * @Title: AbstractFile.java  
- * @Package com.dragonsoft.structure.composite
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月23日  
- * @version V1.0  
- */ 
 package structure.composite.composite_a;
 
 import java.util.ArrayList;
@@ -16,16 +8,14 @@ import java.util.List;
  */
 
 /**  
- * @ClassName: AbstractFile  
- * @Description: TODO(模拟抽象组件)  
+ * 模拟抽象组件
  * @author ronin  
  * @date 2019年3月23日  
  *    
  */
 public interface AbstractFile {
 	/**
-	 * @Title: killViruls  
-	 * @Description: TODO(杀毒)  
+	 * 杀毒
 	 * @param 
 	 * @return void
 	 * @throws
@@ -34,8 +24,7 @@ public interface AbstractFile {
 }
 
 /**
- * @ClassName: imageFiles  
- * @Description: TODO(模拟Leaf节点:单个文件)  
+ * 模拟Leaf节点:单个文件
  * @author ronin  
  * @date 2019年3月23日  
  *
@@ -69,8 +58,7 @@ class imageFiles implements AbstractFile{
 }
 
 /**
- * @ClassName: TextFiles  
- * @Description: TODO(模拟Leaf节点:单个文件)  
+ * 模拟Leaf节点:单个文件
  * @author ronin  
  * @date 2019年3月23日  
  *
@@ -104,8 +92,7 @@ class TextFiles implements AbstractFile {
 }
 
 /**
- * @ClassName: Folder  
- * @Description: TODO(模拟容器组件:文件夹)  
+ * 模拟容器组件:文件夹
  * @author ronin  
  * @date 2019年3月23日  
  *

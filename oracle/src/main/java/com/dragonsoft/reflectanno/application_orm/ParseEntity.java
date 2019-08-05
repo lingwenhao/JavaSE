@@ -1,19 +1,10 @@
-/**  
- * @Title: ParseEntity.java  
- * @Package com.dragonsoft.reflectanno.application_orm  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月24日  
- * @version V1.0  
- */ 
 package com.dragonsoft.reflectanno.application_orm;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 
 /**  
- * @ClassName: ParseEntity  
- * @Description: TODO(解析实体上的注解)  
+ * 解析实体上的注解
  * @author ronin  
  * @date 2019年3月24日  
  *    

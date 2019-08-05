@@ -1,16 +1,12 @@
 /**  
- * @Title: DragonAirShipBuilder.java  
- * @Package create.builder.builder
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月23日  
  * @version V1.0  
  */ 
 package create.builder.builder_a;
 
 /**  
- * @ClassName: DragonAirShipBuilder  
- * @Description: TODO(构建Dragon号发动机)  
+ * 构建Dragon号发动机
  * @author ronin  
  * @date 2019年3月23日  
  *    

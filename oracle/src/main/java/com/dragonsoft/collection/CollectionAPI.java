@@ -1,11 +1,3 @@
-/**  
- * @Title: CollectionAPI.java  
- * @Package com.dragonsoft.collection  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年4月16日  
- * @version V1.0  
- */ 
 package com.dragonsoft.collection;
 
 import org.junit.Test;
@@ -13,9 +5,7 @@ import org.junit.Test;
 import java.util.*;
 
 /**  
- * @ClassName: CollectionAPI  
- * @Description: TODO(这里用一句话描述这个类的作用)  
- * @author ronin  
+ * @author ronin
  * @date 2019年4月16日  
  *    
  */

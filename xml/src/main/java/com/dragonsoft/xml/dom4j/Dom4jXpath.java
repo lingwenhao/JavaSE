@@ -1,11 +1,3 @@
-/**  
- * @Title: Dom4jXpath.java  
- * @Package com.dragonsoft.xml.dom4j  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月8日  
- * @version V1.0  
- */ 
 package com.dragonsoft.xml.dom4j;
 
 import java.util.List;
@@ -17,8 +9,7 @@ import org.dom4j.Node;
 import org.dom4j.io.SAXReader;
 
 /**  
- * @ClassName: Dom4jXpath  
- * @Description: TODO(使用dom4j支持Xpath表达式直接获取某一个元素)
+ * 使用dom4j支持Xpath表达式直接获取某一个元素
  * @author ronin  
  * @date 2019年3月8日  
  *    
@@ -52,8 +43,7 @@ public class Dom4jXpath {
 	}
 
 	/**  
-	 * @Title: selectFirstP1NodeName  
-	 * @Description: TODO(获取第一个p1节点下的name的值)  
+	 * 获取第一个p1节点下的name的值
 	 * @param @param document 参数  
 	 * @return void    返回类型  
 	 * @throws  
@@ -71,8 +61,7 @@ public class Dom4jXpath {
 	}
 
 	/**  
-	 * @Title: selectAllNameTags  
-	 * @Description: TODO(使用XPATH得到xml中所有的name元素的值)  
+	 * 使用XPATH得到xml中所有的name元素的值
 	 * @param document 参数  
 	 * @return void    返回类型  
 	 * @throws  
@@ -95,8 +84,7 @@ public class Dom4jXpath {
 	}
 
 	/**  
-	 * @Title: dom4jParseXmlgetDocumentObject  
-	 * @Description: TODO(得到xml文档的root节点)  
+	 * 得到xml文档的root节点
 	 * @param DocumentException 参数  
 	 * @return Element    返回类型  
 	 * @throws  

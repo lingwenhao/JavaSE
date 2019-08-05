@@ -1,11 +1,3 @@
-/**  
- * @Title: ConfigManagerAnno.java  
- * @Package com.dragonsoft.xml.spring.ioc.anno_one.parse  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月20日  
- * @version V1.0  
- */ 
 package com.dragonsoft.xml.spring.ioc.anno_one.parse;
 
 import java.io.InputStream;
@@ -18,8 +10,7 @@ import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 
 /**  
- * @ClassName: ConfigManagerAnno  
- * @Description: TODO(获取base-package配置的路径)  
+ * 获取base-package配置的路径
  * @author ronin  
  * @date 2019年3月20日  
  *    

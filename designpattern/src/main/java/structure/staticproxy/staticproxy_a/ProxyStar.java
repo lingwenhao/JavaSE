@@ -1,16 +1,7 @@
-/**  
- * @Title: ProxyStar.java  
- * @Package com.dragonsoft.structure.staticproxy
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月23日  
- * @version V1.0  
- */ 
 package structure.staticproxy.staticproxy_a;
 
 /**  
- * @ClassName: ProxyStar  
- * @Description: TODO(歌手的代理人:除了不能唱歌，其他的什么事儿都可以做)  
+ * 歌手的代理人:除了不能唱歌，其他的什么事儿都可以做
  * @author ronin  
  * @date 2019年3月23日  
  *    

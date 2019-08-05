@@ -1,18 +1,9 @@
-/**  
- * @Title: Person.java  
- * @Package com.dragonsoft.create.prototype  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月23日  
- * @version V1.0  
- */ 
 package create.prototype.prototype_a;
 
 import java.util.Date;
 
 /**  
- * @ClassName: Person  
- * @Description: TODO(深克隆/深复制实体)  
+ * 深克隆/深复制实体
  * @author ronin  
  * @date 2019年3月23日  
  *    
@@ -28,7 +19,6 @@ public class Person implements Cloneable{
 	 */ 
 	public Person() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	
 	/**  

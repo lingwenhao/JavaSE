@@ -1,11 +1,3 @@
-/**  
- * @Title: GenericExtend.java  
- * @Package com.dragonsoft.generic  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月14日  
- * @version V1.0  
- */ 
 package com.dragonsoft.generic;
 
 import java.util.ArrayList;
@@ -13,10 +5,9 @@ import java.util.List;
 
 import org.junit.Test;
 
-/**  
- * @ClassName: GenericExtend  
- * @Description: TODO(泛型的继承)  
- * @author ronin  
+/**
+ * 泛型的继承
+ * @author ronin
  * @date 2019年3月14日  
  *    
  */
@@ -52,9 +43,7 @@ public class GenericPlus {
 	
 
 	/**
-	 * 
-	 * @Title: fun1
-	 * @Description: TODO(数组不使用泛型的风险)  
+	 * 数组不使用泛型的风险
 	 * @return void
 	 * @throws
 	 */
@@ -72,10 +61,8 @@ public class GenericPlus {
 	
 	
 	/**
-	 * @Title: fun2
-	 * @Description: TODO(泛型的弊端，以及使用通配符解决该问题
-	 * 						注意事项:通配符只能出现在左边，不能出现在右边/不能在new 时使用)  
-	 * @return void
+	 * 泛型的弊端，以及使用通配符解决该问题
+	 * 注意事项:通配符只能出现在左边，不能出现在右边/不能在new 时使用)
 	 * @throws
 	 */
 	@Test
@@ -116,8 +103,7 @@ public class GenericPlus {
 	}
 	
 	/**
-	 * @Title: print1  
-	 * @Description: TODO(泛型通配符(子类通配)：
+	 * 泛型通配符(子类通配)
 	 * 			1.?表示一个不确定的值，在调用时确定下来)  
 	 * @param list
 	 * @return void
@@ -130,8 +116,7 @@ public class GenericPlus {
 	}
 	
 	/**
-	 * @Title: print2  
-	 * @Description: TODO(泛型通配符(子类通配)：
+	 * 泛型通配符(子类通配)
 	 * 			1.?表示一个不确定的值，在调用时确定下来)  
 	 * @param list
 	 * @return void
@@ -149,8 +134,7 @@ public class GenericPlus {
 	}
 	
 	/**
-	 * @Title: print3  
-	 * @Description: TODO(泛型通配符(父类通配)：
+	 * (泛型通配符(父类通配)
 	 * 			1.?表示一个不确定的值，在调用时确定下来)  
 	 * @param list
 	 * @return void
@@ -167,8 +151,7 @@ public class GenericPlus {
 	}
 	
 	/**
-	 * @Title: print4  
-	 * @Description: TODO(泛型通配符:(无界匹配))  
+	 * 泛型通配符:(无界匹配)
 	 * @param list
 	 * @return void
 	 * @throws

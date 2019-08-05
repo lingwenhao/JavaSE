@@ -1,16 +1,7 @@
-/**  
- * @Title: PizzaStore.java
- * @Package com.dragonsoft.structure.decorator
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月23日  
- * @version V1.0  
- */ 
 package structure.decorator.decorator_a;
 
 /**  
- * @ClassName: PizzaStore
- * @Description: TODO(测试装饰者模式)  
+ * 测试装饰者模式
  * @author ronin  
  * @date 2019年3月23日  
  *    

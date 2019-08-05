@@ -1,8 +1,7 @@
 /**  
  * @Title: ArraysApi.java  
  * @Package com.dragonsoft.api.array  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月11日  
  * @version V1.0  
  */ 
@@ -14,18 +13,16 @@ import java.util.List;
 
 import org.junit.Test;
 
-/**  
- * @ClassName: ArraysApi  
- * @Description: TODO(数组类的高级API)  
- * @author ronin  
+/**
+ * 数组类的高级API
+ * @author ronin
  * @date 2019年3月11日  
  *    
  */
 public class ArraysApi {
 	
 	/**
-	 * @Title: join  
-	 * @Description: TODO(数组的copyOf()方法，此方法常用来增加数组长度)  
+	 * 数组的copyOf()方法，此方法常用来增加数组长度
 	 * @return void
 	 * @throws
 	 */
@@ -40,8 +37,7 @@ public class ArraysApi {
 	
 	
 	/**
-	 * @Title: sort  
-	 * @Description: TODO(数组的排序方法，采用优化的快速排序算法(默认从小到大排序))  
+	 * 数组的排序方法，采用优化的快速排序算法(默认从小到大排序)
 	 * @return void
 	 * @throws
 	 */
@@ -57,8 +53,7 @@ public class ArraysApi {
 	
 	
 	/**
-	 * @Title: binarySearch  
-	 * @Description: TODO(数组的二分查找方法，注意:二分查找前提是数组有序)  
+	 * 数组的二分查找方法，注意:二分查找前提是数组有序
 	 * @return void
 	 * @throws
 	 */
@@ -70,9 +65,8 @@ public class ArraysApi {
 	}
 	
 	/**
-	 * @Title: binarySearchOverload  
-	 * @Description: TODO(数组的二分查找方法重载，注意:二分查找前提是数组有序)  
-	 * @param 
+	 * 数组的二分查找方法重载，注意:二分查找前提是数组有序
+	 * @param
 	 * @return void
 	 * @throws
 	 */
@@ -84,8 +78,7 @@ public class ArraysApi {
 	}
 	
 	/**
-	 * @Title: fill  
-	 * @Description: TODO(把数组所有的元素的值设置为某个值)  
+	 * 把数组所有的元素的值设置为某个值
 	 * @return void
 	 * @throws
 	 */
@@ -101,9 +94,8 @@ public class ArraysApi {
 	}
 	
 	/**
-	 * @Title: equals  
-	 * @Description: TODO(数组的大小相同，对应下标位置的元素也相同，则返回true)  
-	 * @param 
+	 * 数组的大小相同，对应下标位置的元素也相同，则返回true
+	 * @param
 	 * @return void
 	 * @throws
 	 */

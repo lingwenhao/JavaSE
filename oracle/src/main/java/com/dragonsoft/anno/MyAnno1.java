@@ -1,7 +1,6 @@
 /**  
  * @Title: MyAnno1.java  
- * @Package com.dragonsoft.anno  
- * @Description: TODO(注解)
+ * @Package com.dragonsoft.anno
  * @author ronin  
  * @date 2019年3月12日  
  * @version V1.0  
@@ -12,9 +11,8 @@ import java.lang.annotation.ElementType;
 import java.lang.annotation.Target;
 
 /**
- * @ClassName: MyAnno1  
- * @Description: TODO(一个简单的注解)  
- * @author ronin  
+ * 一个简单的注解
+ * @author ronin
  * @date 2019年3月12日  
  */
 
@@ -38,16 +36,16 @@ public class MyAnno1 {
 }
 @interface Anno2 {
 	/**
+	 * 注解的属性
 	 * @Title: age  
-	 * @Description: TODO(注解的属性)
 	 * @throws
 	 */
 	int age();
 	String name();
 	
 	/**
+	 * 为注解的属性设置默认值
 	 * @Title: school  
-	 * @Description: TODO(为注解的属性设置默认值)  
 	 * @param @return
 	 * @return String
 	 * @throws

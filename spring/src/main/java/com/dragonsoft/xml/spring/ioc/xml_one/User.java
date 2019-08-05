@@ -1,17 +1,7 @@
-/**  
- * @Title: Person.java  
- * @Package com.dragonsoft.xml.spring  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月14日  
- * @version V1.0  
- */ 
 package com.dragonsoft.xml.spring.ioc.xml_one;
 
 /**  
- * @ClassName: User  
- * @Description: TODO(User实体)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月14日  
  */
 public class User {

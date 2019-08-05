@@ -1,8 +1,5 @@
 /**  
- * @Title: Dog.java  
- * @Package com.dragonsoft.create.prototype  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月23日  
  * @version V1.0  
  */ 
@@ -12,8 +9,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**  
- * @ClassName: Dog  
- * @Description: TODO(序列化/反序列化实现深克隆)  
+ * 序列化/反序列化实现深克隆
  * @author ronin  
  * @date 2019年3月23日  
  *    
@@ -30,7 +26,6 @@ public class Dog implements Serializable{
 	 */ 
 	public Dog() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	/**  
 	 * 创建一个新的实例 Dog.  

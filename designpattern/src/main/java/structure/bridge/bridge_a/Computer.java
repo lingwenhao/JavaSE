@@ -1,8 +1,5 @@
 /**  
- * @Title: Computer.java  
- * @Package com.dragonsoft.structure.bridge
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月23日  
  * @version V1.0  
  */ 
@@ -16,8 +13,7 @@ package structure.bridge.bridge_a;
  */
 
 /**  
- * @ClassName: Computer  
- * @Description: TODO(各种电脑的父接口)  
+ * 各种电脑的父接口
  * @author ronin  
  * @date 2019年3月23日  
  *    
@@ -27,8 +23,7 @@ public interface Computer {
 }
 
 /**
- * @ClassName: Destop  
- * @Description: TODO(台式机)  
+ * 台式机
  * @author ronin  
  * @date 2019年3月23日  
  *
@@ -49,8 +44,7 @@ class Destop implements Computer {
 
 
 /**
- * @ClassName: Laptop  
- * @Description: TODO(手提电脑)  
+ * 手提电脑
  * @author ronin  
  * @date 2019年3月23日  
  *
@@ -70,8 +64,7 @@ class Laptop implements Computer {
 }
 
 /**
- * @ClassName: Pad  
- * @Description: TODO(平板电脑)  
+ * 平板电脑
  * @author ronin  
  * @date 2019年3月23日  
  *
@@ -92,8 +85,7 @@ class Pad implements Computer {
 
 
 /**
- * @ClassName: LenovolDesktop  
- * @Description: TODO(联想台式机)  
+ * 联想台式机
  * @author ronin  
  * @date 2019年3月23日  
  *
@@ -112,8 +104,7 @@ class LenovolDesktop extends Destop {
 }
 
 /**
- * @ClassName: LenovolLaptop  
- * @Description: TODO(联想手提电脑)  
+ * 联想手提电脑
  * @author ronin  
  * @date 2019年3月23日  
  *
@@ -132,8 +123,7 @@ class LenovolLaptop extends Laptop {
 }
 
 /**
- * @ClassName: LenovolPad  
- * @Description: TODO(联想平板电脑)  
+ * 联想平板电脑
  * @author ronin  
  * @date 2019年3月23日  
  *
@@ -152,8 +142,7 @@ class LenovolPad extends Pad {
 }
 
 /**
- * @ClassName: ShenZhouDesktop  
- * @Description: TODO(神州台式机)  
+ * 神州台式机
  * @author ronin  
  * @date 2019年3月23日  
  *
@@ -173,8 +162,7 @@ class ShenZhouDesktop extends Destop {
 
 
 /**
- * @ClassName: ShenZhouLaptop  
- * @Description: TODO(神州手提电脑)  
+ * 神州手提电脑
  * @author ronin  
  * @date 2019年3月23日  
  *
@@ -193,8 +181,7 @@ class ShenZhouLaptop extends Laptop {
 }
 
 /**
- * @ClassName: ShenZhouPad  
- * @Description: TODO(神州平板电脑)  
+ * 神州平板电脑
  * @author ronin  
  * @date 2019年3月23日  
  *

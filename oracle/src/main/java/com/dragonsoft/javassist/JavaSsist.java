@@ -1,11 +1,3 @@
-/**  
- * @Title: JavaSsist.java  
- * @Package com.dragonsoft.javassist  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月26日  
- * @version V1.0  
- */ 
 package com.dragonsoft.javassist;
 
 import java.io.IOException;
@@ -30,8 +22,7 @@ import javassist.CtNewMethod;
 import javassist.NotFoundException;
 
 /**  
- * @ClassName: JavaSsist  
- * @Description: TODO(测试JavaSsist API) 
+ * 测试JavaSsist API)
  * @author ronin  
  * @date 2019年3月26日  
  *    
@@ -41,7 +32,7 @@ public class JavaSsist {
 	/**
 	 * @throws Exception 
 	 * @Title: fun1  
-	 * @Description: TODO(使用JavaSsist生成新的class文件
+	 * 使用JavaSsist生成新的class文件
 	 * 						生成结果:在d:/myjava下生成 com/dragonsoft/javassist/EmployCt.class这个文件)  
 	 * @param 
 	 * @return void
@@ -108,8 +99,7 @@ public class JavaSsist {
 	
 	
 	/**
-	 * @Title: fun2  
-	 * @Description: TODO(测试JavaSist API获取类的信息)  
+	 * 测试JavaSist API获取类的信息
 	 * @param @throws NotFoundException
 	 * @param @throws IOException
 	 * @param @throws CannotCompileException
@@ -141,7 +131,7 @@ public class JavaSsist {
 	 * @throws CannotCompileException 
 	 * @throws NotFoundException 
 	 * @Title: fun3  
-	 * @Description: TODO(通过 反射生成新的方法)  
+	 * 通过 反射生成新的方法
 	 * @param 
 	 * @return void
 	 * @throws
@@ -186,7 +176,7 @@ public class JavaSsist {
 	 * @throws InstantiationException 
 	 * @throws CannotCompileException 
 	 * @Title: fun4  
-	 * @Description: TODO(使用javassit获取方法，并在方法调用之前对方法进行增强，实现在字节码层面对方法进行增强
+	 * 使用javassit获取方法，并在方法调用之前对方法进行增强，实现在字节码层面对方法进行增强
 	 * 		注意:javassit可以在字节码层面修改class文件的内容，假如修改了某个方法，但是并不能直接调用该方法，只能通过反射去调用)  
 	 * @param @throws NotFoundException
 	 * @return void

@@ -1,17 +1,7 @@
-/**  
- * @Title: AirShip.java  
- * @Package create.builder.builder
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月23日  
- * @version V1.0  
- */ 
 package create.builder.builder_a;
 
 /**  
- * @ClassName: AirShip  
- * @Description: TODO(这里用一句话描述这个类的作用)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月23日  
  *    
  */
@@ -29,7 +19,6 @@ public class AirShip {
 	 */ 
 	public AirShip() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 
@@ -73,8 +62,7 @@ public class AirShip {
 }
 
 /**
- * @ClassName: OrbitalModule  
- * @Description: TODO(轨道舱)  
+ * 轨道舱
  * @author ronin  
  * @date 2019年3月23日  
  *
@@ -115,8 +103,7 @@ class OrbitalModule {
 }
 
 /**
- * @ClassName: Engin  
- * @Description: TODO(发动机)  
+ * 发动机
  * @author ronin  
  * @date 2019年3月23日  
  *
@@ -157,8 +144,7 @@ class Engin {
 }
 
 /**
- * @ClassName: EscapeTower  
- * @Description: TODO(逃逸塔)  
+ * 逃逸塔
  * @author ronin  
  * @date 2019年3月23日  
  *

@@ -1,19 +1,10 @@
-/**  
- * @Title: LoopNode.java  
- * @Package com.dragonsoft.line.linked  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月31日  
- * @version V1.0  
- */ 
 package linkedlist.linkedlist_d;
 
 /**  
- * @ClassName: LoopNode  
- * @Description: TODO(模拟循环链表:
- * 					1.循环链表的最后一个节点的指针域指向链表的第一个节点
- * 					2.循环链表没有最后一个节点，所以也不需要有判断是否为最后一个节点的方法
- * 					3.当循环链表只有一个节点的时候，下一个节点就是当前节点本身)  
+ * 模拟循环链表:
+ * 		1.循环链表的最后一个节点的指针域指向链表的第一个节点
+ * 		2.循环链表没有最后一个节点，所以也不需要有判断是否为最后一个节点的方法
+ * 		3.当循环链表只有一个节点的时候，下一个节点就是当前节点本身)
  * @author ronin  
  * @date 2019年3月31日  
  *    
@@ -51,8 +42,7 @@ public class LoopNode<T> {
 //	}
 	
 	/**
-	 * @Title: next  
-	 * @Description: TODO(获取下一个节点)  
+	 * 获取下一个节点
 	 * @param
 	 * @return Node
 	 * @throws
@@ -63,8 +53,7 @@ public class LoopNode<T> {
 	
 	
 	/**
-	 * @Title: getData  
-	 * @Description: TODO(获取节点中的数据)  
+	 * 获取节点中的数据
 	 * @param @return
 	 * @return T
 	 * @throws
@@ -75,8 +64,7 @@ public class LoopNode<T> {
 	
 	
 	/**
-	 * @Title: removeNext  
-	 * @Description: TODO(删除下一个节点)  
+	 * 删除下一个节点
 	 * @param 
 	 * @return void
 	 * @throws
@@ -90,10 +78,8 @@ public class LoopNode<T> {
 	}
 	
 	/**
-	 * @Title: after  
-	 * @Description: TODO(插入一个节点作为当前节点的下一个节点:
+	 * 插入一个节点作为当前节点的下一个节点:
 	 * 			循环链表中，在当前节点的下一个节点插入数据之前，当前节点的下一个节点始终指向第一个节点)  
-	 * @param LoopNode
 	 * @return void
 	 * @throws
 	 */

@@ -1,17 +1,8 @@
-/**  
- * @Title: Person.java  
- * @Package com.dragonsoft.reflect  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月10日  
- * @version V1.0  
- */ 
 package com.dragonsoft.reflect;
 
 
 /**  
- * @ClassName: Person  
- * @Description: TODO(反射操作的类)  
+ * 反射操作的类
  * @author ronin  
  * @date 2019年3月10日  
  *    
@@ -45,9 +36,7 @@ public class Person {
 	}
 
 	/**
-	 * @Title: getV  
-	 * @Description: TODO(测试没有对应的属性时，内省嫩不能拿到这个 方法
-	 * 			只要有返回值，就可以拿到这个方法)  
+	 * 测试没有对应的属性时，内省嫩不能拿到这个 方法只要有返回值，就可以拿到这个方法
 	 * @param
 	 * @return String
 	 * @throws

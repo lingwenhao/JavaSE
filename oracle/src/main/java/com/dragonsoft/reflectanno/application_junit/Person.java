@@ -1,18 +1,8 @@
-/**  
- * @Title: Person.java  
- * @Package com.dragonsoft.reflect.application_junit  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月14日  
- * @version V1.0  
- */ 
 package com.dragonsoft.reflectanno.application_junit;
 
 
 /**  
- * @ClassName: Person  
- * @Description: TODO(Person JavaBean)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月14日  
  *    
  */

@@ -1,16 +1,7 @@
-/**  
- * @Title: Computer2.java  
- * @Package com.dragonsoft.structure.bridge
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月23日  
- * @version V1.0  
- */ 
 package structure.bridge.bridge_a;
 
 /**  
- * @ClassName: Computer2  
- * @Description: TODO(电脑类型的维度)  
+ * 电脑类型的维度
  * @author ronin  
  * @date 2019年3月23日  
  *    

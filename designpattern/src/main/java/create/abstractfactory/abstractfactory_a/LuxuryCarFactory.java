@@ -1,17 +1,7 @@
-/**  
- * @Title: LuxuryCarFactory.java  
- * @Package com.dragonsoft.create.abstractfactory  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月11日  
- * @version V1.0  
- */ 
 package create.abstractfactory.abstractfactory_a;
 
 /**  
- * @ClassName: LuxuryCarFactory  
- * @Description: TODO(这里用一句话描述这个类的作用)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月11日  
  *    
  */
@@ -26,7 +16,6 @@ public class LuxuryCarFactory implements CarFactory{
 	
 	@Override
 	public Engine createEngine() {
-		// TODO Auto-generated method stub
 		return new LuxuryEngine();
 	}
 
@@ -39,7 +28,6 @@ public class LuxuryCarFactory implements CarFactory{
 	
 	@Override
 	public Seat createSeat() {
-		// TODO Auto-generated method stub
 		return new LuxurySeat();
 	}
 
@@ -52,7 +40,6 @@ public class LuxuryCarFactory implements CarFactory{
 	
 	@Override
 	public Tyre createTyre() {
-		// TODO Auto-generated method stub
 		return new LuxuryTyre();
 	}
 

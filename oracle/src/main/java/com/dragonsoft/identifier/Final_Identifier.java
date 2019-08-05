@@ -1,16 +1,7 @@
-/**  
- * @Title: Final_Identifier.java  
- * @Package com.dragonsoft.identifier  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月12日  
- * @version V1.0  
- */ 
 package com.dragonsoft.identifier;
 
 /**  
- * @ClassName: Final_Identifier  
- * @Description: TODO(这里用一句话描述这个类的作用)  
+ * 这里用一句话描述这个类的作用
  * @author ronin  
  * @date 2019年3月12日  
  */

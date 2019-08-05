@@ -1,4 +1,4 @@
-package action.command.command_a;
+package action.command.command_c;
 
 /**
  * 遥控器类

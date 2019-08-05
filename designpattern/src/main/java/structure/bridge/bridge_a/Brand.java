@@ -1,16 +1,7 @@
-/**  
- * @Title: Brand.java  
- * @Package com.dragonsoft.structure.bridge
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月23日  
- * @version V1.0  
- */ 
 package structure.bridge.bridge_a;
 
 /**  
- * @ClassName: Brand  
- * @Description: TODO(品牌接口)  
+ * 品牌接口
  * @author ronin  
  * @date 2019年3月23日  
  *    
@@ -20,8 +11,7 @@ public interface Brand {
 }
 
 /**
- * @ClassName: Lenovol  
- * @Description: TODO(联想电脑)  
+ * 联想电脑
  * @author ronin  
  * @date 2019年3月23日  
  *
@@ -41,8 +31,7 @@ class Lenovol implements Brand {
 
 
 /**
- * @ClassName: Dell  
- * @Description: TODO(Dell电脑)  
+ * Dell电脑
  * @author ronin  
  * @date 2019年3月23日  
  *

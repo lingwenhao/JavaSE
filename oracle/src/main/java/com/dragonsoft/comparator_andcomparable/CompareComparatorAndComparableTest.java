@@ -64,7 +64,7 @@ public class CompareComparatorAndComparableTest{
      *   由于Person实现了equals()函数：若两person的age、name都相等，则认为这两个person相等。
      *   所以，这里的p1和p2相等。
      *
-     *   TODO：若去掉Person中的equals()函数，则p1不等于p2
+     *   若去掉Person中的equals()函数，则p1不等于p2
      */
     private static void testEquals() {
         Person p1 = new Person("eee", 100);

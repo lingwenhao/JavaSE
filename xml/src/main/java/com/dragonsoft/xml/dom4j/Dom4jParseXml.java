@@ -1,11 +1,3 @@
-/**  
- * @Title: Dom4jParseXml.java  
- * @Package com.dragonsoft.xml.dom4j  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月7日  
- * @version V1.0  
- */ 
 package com.dragonsoft.xml.dom4j;
 
 
@@ -23,9 +15,8 @@ import org.dom4j.io.SAXReader;
 import org.dom4j.io.XMLWriter;
 
 /**  
- * @ClassName: Dom4jParseXml  
- * @Description: TODO(使用dom4j解析xml)  
- * @author ronin  
+ * 使用dom4j解析xml
+ * @author ronin
  * @date 2019年3月7日  
  *    
  */
@@ -74,8 +65,6 @@ public class Dom4jParseXml {
 	}
 
 	/**  
-	 * @Title: selectAllChildNode  
-	 * @Description: TODO(这里用一句话描述这个方法的作用)  
 	 * @param @param document
 	 * @return void
 	 * @throws  
@@ -99,8 +88,7 @@ public class Dom4jParseXml {
 	}
 
 	/**  
-	 * @Title: getNodeAttribute  
-	 * @Description: TODO(使用Dom4j获取根节点下第一个p1标签的属性值)  
+	 * 使用Dom4j获取根节点下第一个p1标签的属性值
 	 * @param @param document 参数  
 	 * @return void    返回类型  
 	 * @throws  
@@ -122,9 +110,7 @@ public class Dom4jParseXml {
 	}
 
 	/**
-	 * @throws IOException   
-	 * @Title: deleteFirstP1SchooleNode  
-	 * @Description: TODO(删除第一个p1节点下面的school节点)  
+	 * 删除第一个p1节点下面的school节点
 	 * @param document 参数  
 	 * @return void    返回类型  
 	 * @throws  
@@ -167,8 +153,7 @@ public class Dom4jParseXml {
 
 	/**
 	 * @throws IOException   
-	 * @Title: modifyNodeText  
-	 * @Description: TODO(修改第一个p1节点下面的name的值)  
+	 * 修改第一个p1节点下面的name的值
 	 * @param document 参数  
 	 * @return void    返回类型  
 	 * @throws  
@@ -209,9 +194,7 @@ public class Dom4jParseXml {
 	}
 
 	/**
-	 * @throws IOException 
-	 * @Title: addChildeNodeAtPosition
-	 * @Description: TODO(在特定的位置添加一个节点,在第一个p1的name节点前添加一个节点<school>我是你大爷</school>)  
+	 * 在特定的位置添加一个节点,在第一个p1的name节点前添加一个节点<school>我是你大爷</school>
 	 * @param document 参数  
 	 * @return void    返回类型  
 	 * @throws  
@@ -257,8 +240,7 @@ public class Dom4jParseXml {
 
 	/**
 	 * @throws IOException   
-	 * @Title: addChildeNode  
-	 * @Description: TODO(在第一个p1节点的末尾添加一个子节点)  
+	 * 在第一个p1节点的末尾添加一个子节点
 	 * @param document 参数  
 	 * @return void    返回类型  
 	 * @throws  
@@ -299,8 +281,7 @@ public class Dom4jParseXml {
 	}
 
 	/**  
-	 * @Title: selectSecondP1Tag  
-	 * @Description: TODO(得到根节点下第二个P2节点中name标签的值)  
+	 * 得到根节点下第二个P2节点中name标签的值
 	 * @param document 参数  
 	 * @return void    返回类型  
 	 * @throws  
@@ -329,8 +310,7 @@ public class Dom4jParseXml {
 	}
 
 	/**  
-	 * @Title: selectFirstP1Tag  
-	 * @Description: TODO(得到根节点下第一个P1节点中name标签的值)  
+	 * 得到根节点下第一个P1节点中name标签的值
 	 * @param document 参数  
 	 * @return void    返回类型  
 	 * @throws  
@@ -352,8 +332,7 @@ public class Dom4jParseXml {
 	}
 
 	/**  
-	 * @Title: selectAllP1Tag  
-	 * @Description: TODO(得到所有的p1标签，然后得到每一个p1标签中name和age子标签的值)  
+	 * 得到所有的p1标签，然后得到每一个p1标签中name和age子标签的值
 	 * @param document
 	 * @return void    返回类型  
 	 * @throws  
@@ -377,8 +356,7 @@ public class Dom4jParseXml {
 	}
 
 	/**  
-	 * @Title: dom4jParseXmlgetDocumentObject  
-	 * @Description: TODO(得到xml文档的root节点)  
+	 * 得到xml文档的root节点
 	 * @return Element    返回类型
 	 * @throws  
 	 */

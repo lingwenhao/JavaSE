@@ -1,11 +1,3 @@
-/**  
- * @Title: ClassPathAnnoApplicationContext.java  
- * @Package com.dragonsoft.xml.spring.ioc.anno_one.factory  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月20日  
- * @version V1.0  
- */ 
 package com.dragonsoft.xml.spring.ioc.anno_one.factory;
 
 
@@ -16,9 +8,7 @@ import com.dragonsoft.xml.spring.ioc.anno_one.parse.ConfigManagerAnno;
 import com.dragonsoft.xml.spring.ioc.anno_one.utils.ClassUtils;
 
 /**  
- * @ClassName: ClassPathAnnoApplicationContext  
- * @Description: TODO(这里用一句话描述这个类的作用)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月20日  
  *    
  */

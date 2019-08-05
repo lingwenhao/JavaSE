@@ -1,12 +1,3 @@
-/**  
-* @Title: JaxpParseXml.java  
-* @Package com.dragonsoft.jaxp  
-* @Description: TODO(用一句话描述该文件做什么)  
-* @author ronin  
-* @date 2019年3月2日  
-* @version V1.0  
-*/ 
-
 package com.dragonsoft.xml.jaxp;
 
 import java.io.IOException;
@@ -30,8 +21,7 @@ import org.w3c.dom.Text;
 import org.xml.sax.SAXException;
 
 /**  
- * @ClassName: JaxpParseXml  
- * @Description: TODO(使用jaxp的Dom方式解析xml文件,jaxp增、删、改操作对格式化的支持很差)  
+ * 使用jaxp的Dom方式解析xml文件,jaxp增、删、改操作对格式化的支持很差
  * @author ronin  
  * @date 2019年3月2日  
  */
@@ -75,9 +65,7 @@ public class JaxpDomParseXml {
 	}
 
 	/**  
-	 * @Title: listNode  
-	 * @Description: TODO(这里用一句话描述这个方法的作用)  
-	 * @param document    参数  
+	 * @param document    参数
 	 * @return void    返回类型  
 	 * @throws  
 	 */
@@ -107,8 +95,6 @@ public class JaxpDomParseXml {
 
 	/**
 	 * @throws TransformerException   
-	 * @Title: deleteNode  
-	 * @Description: TODO(这里用一句话描述这个方法的作用)  
 	 * @param document
 	 * @param transfomer    参数  
 	 * @return void    返回类型  
@@ -136,8 +122,6 @@ public class JaxpDomParseXml {
 
 	/**
 	 * @throws TransformerException   
-	 * @Title: editNode  
-	 * @Description: TODO(这里用一句话描述这个方法的作用)  
 	 * @param document
 	 * @param transfomer    参数  
 	 * @return void    返回类型  
@@ -160,7 +144,6 @@ public class JaxpDomParseXml {
 
 	/**  
   	 * @Title: getTransfomer  
-	 * @Description: TODO(获取xml回写工厂对象)  
 	 * @param TransformerFactoryConfigurationError
 	 * @param TransformerConfigurationException    参数  
 	 * @return void    返回类型  
@@ -180,8 +163,7 @@ public class JaxpDomParseXml {
     /**
 	 * @throws TransformerException  
 	 * @Title: addNode  
-	 * @Description: TODO(给第一个节点下面增加一个新的节点)  
-	 * @param document    参数  
+	 * @param document    参数
 	 * @param transfomer    完成回写xml的对象 
 	 * @return void    返回类型  
 	 * @throws  
@@ -211,9 +193,7 @@ public class JaxpDomParseXml {
 	}
 
 	/**  
-	 * @Title: selectAllNodes  
-	 * @Description: TODO(获取xml中所有的节点)  
-	 * @param document    参数  
+	 * @param document    参数
 	 * @return void    返回类型  
 	 * @throws  
 	 */
@@ -237,8 +217,6 @@ public class JaxpDomParseXml {
 	}
 
 	/**
-	 * @Title: domParseXmlgetDocumentObject  
-	 * @Description: TODO(使用jaxp的dom方式解析xml,获取document对象)  
 	 * @param ParserConfigurationException
 	 * @param SAXException
 	 * @param IOException    参数  

@@ -1,11 +1,3 @@
-/**  
- * @Title: DeepCloneSerizlizeClient.java  
- * @Package com.dragonsoft.create.prototype  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月23日  
- * @version V1.0  
- */ 
 package create.prototype.prototype_a;
 
 import java.io.ByteArrayInputStream;
@@ -16,8 +8,7 @@ import java.io.ObjectOutputStream;
 import java.util.Date;
 
 /**  
- * @ClassName: DeepCloneSerizlizeClient  
- * @Description: TODO(使用序列化/反序列化实现深克隆)  
+ * 使用序列化/反序列化实现深克隆
  * @author ronin  
  * @date 2019年3月23日  
  *    

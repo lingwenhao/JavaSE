@@ -1,11 +1,3 @@
-/**  
- * @Title: ReflectArray.java  
- * @Package com.dragonsoft.reflect  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月28日  
- * @version V1.0  
- */ 
 package com.dragonsoft.reflect;
 
 import java.lang.reflect.Array;
@@ -15,9 +7,7 @@ import org.junit.Test;
 
 
 /**  
- * @ClassName: ReflectArray  
- * @Description: TODO(java.lang.reflect包下Array类)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月28日  
  *    
  */
@@ -39,8 +29,7 @@ public class ReflectArray {
 
 	/**
 	 * @throws ClassNotFoundException 
-	 * @Title: fun1  
-	 * @Description: TODO(使用反射创建数组，并未数组元素赋值/获取数组中元素)  
+	 * 使用反射创建数组，并未数组元素赋值/获取数组中元素
 	 * @param 
 	 * @return void
 	 * @throws
@@ -72,8 +61,7 @@ public class ReflectArray {
 	}
 	
 	/**
-	 * @Title: fun2  
-	 * @Description: TODO(反射创建数组增强:反射创建数组的两种方式)  
+	 * 反射创建数组增强:反射创建数组的两种方式
 	 * @param 
 	 * @return void
 	 * @throws
@@ -104,8 +92,7 @@ public class ReflectArray {
 	}
 	
 	/**
-	 * @Title: fun3  
-	 * @Description: TODO(通过反射创建Integer类型的数组:并分别通过反射和原始方法对数组元素赋值)  
+	 * 通过反射创建Integer类型的数组:并分别通过反射和原始方法对数组元素赋值
 	 * @param 
 	 * @return void
 	 * @throws

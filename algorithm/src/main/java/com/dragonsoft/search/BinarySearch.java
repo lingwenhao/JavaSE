@@ -1,20 +1,10 @@
-/**  
-* @Title: BinarySearch.java  
-* @Package com.dragonsoft.search  
-* @Description: TODO(用一句话描述该文件做什么)  
-* @author ronin  
-* @date 2019年3月2日  
-* @version V1.0  
-*/ 
 package com.dragonsoft.search;
 
 
 import org.junit.Test;
 
 /**
-* @ClassName: BinarySearch  
-* @Description: TODO(这里用一句话描述这个类的作用)  
-* @author ronin  
+* @author ronin
 * @date 2019年3月2日  
 */
 public class BinarySearch {

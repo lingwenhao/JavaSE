@@ -1,8 +1,5 @@
 /**  
- * @Title: Resouce.java  
- * @Package com.dragonsoft.getclasspathresouce  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
+ * @author ronin
  * @date 2019年3月13日  
  * @version V1.0  
  */ 
@@ -15,18 +12,14 @@ import org.apache.commons.io.IOUtils;
 import org.junit.Test;
 
 /**  
- * @ClassName: Resouce  
- * @Description: TODO(使用ClassLoader和Class获取类路径下的资源)  
+ * 使用ClassLoader和Class获取类路径下的资源
  * @author ronin  
  * @date 2019年3月13日  
  *    
  */
 public class Resouce {
 	/**
-	 * @Title: fun  
-	 * @Description: TODO(使用ClassLoader获取根目录下的类路径资源，不能加/)  
-	 * @param @throws IOException
-	 * @return void
+	 * 使用ClassLoader获取根目录下的类路径资源，不能加/
 	 * @throws
 	 */
 	@Test
@@ -41,10 +34,7 @@ public class Resouce {
 	}
 	
 	/**
-	 * @Title: fun  
-	 * @Description: TODO(使用ClassLoader获取包目录下的类路径/WEB-INFO/classes下资源)  
-	 * @param @throws IOException
-	 * @return void
+	 * 使用ClassLoader获取包目录下的类路径/WEB-INFO/classes下资源
 	 * @throws
 	 */
 	@Test
@@ -60,10 +50,7 @@ public class Resouce {
 	
 	
 	/**
-	 * @Title: fun3  
-	 * @Description: TODO(使用Class获取根目录下的类路径资源，与类加载器效果相同，加/)  
-	 * @param @throws IOException
-	 * @return void
+	 * 使用Class获取根目录下的类路径资源，与类加载器效果相同，加/
 	 * @throws
 	 */
 	@Test
@@ -78,10 +65,7 @@ public class Resouce {
 	}
 	
 	/**
-	 * @Title: fun4  
-	 * @Description: TODO(使用Class获取包目录下的类路径资源)  
-	 * @param @throws IOException
-	 * @return void
+	 * 使用Class获取包目录下的类路径资源
 	 * @throws
 	 */
 	@Test

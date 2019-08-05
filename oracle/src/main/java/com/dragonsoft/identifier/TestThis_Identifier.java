@@ -1,17 +1,7 @@
-/**  
- * @Title: TestThis_Identifier.java  
- * @Package com.dragonsoft.identifier  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年4月10日  
- * @version V1.0  
- */ 
 package com.dragonsoft.identifier;
 
 /**  
- * @ClassName: TestThis_Identifier  
- * @Description: TODO(这里用一句话描述这个类的作用)  
- * @author ronin  
+ * @author ronin
  * @date 2019年4月10日  
  *    
  */

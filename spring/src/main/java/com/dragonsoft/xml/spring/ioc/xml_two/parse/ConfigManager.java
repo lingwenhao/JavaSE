@@ -1,11 +1,3 @@
-/**  
- * @Title: ConfigManager.java  
- * @Package com.dragonsoft.xml.spring.ioc.xmltwo.parse  
- * @Description: TODO(用一句话描述该文件做什么)  
- * @author ronin  
- * @date 2019年3月16日  
- * @version V1.0  
- */ 
 package com.dragonsoft.xml.spring.ioc.xml_two.parse;
 
 import java.util.ArrayList;
@@ -24,8 +16,7 @@ import com.dragonsoft.xml.spring.ioc.xml_two.config.Bean;
 import com.dragonsoft.xml.spring.ioc.xml_two.config.Properties;
 
 /**  
- * @ClassName: ConfigManager  
- * @Description: TODO(解析xml，返回读取结果)  
+ * 解析xml，返回读取结果
  * @author ronin  
  * @date 2019年3月16日  
  *    
