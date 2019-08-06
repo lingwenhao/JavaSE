@@ -2,7 +2,7 @@ package create.singleton.singleton_d;
 
 /**
  *
- * TODO:学了volatile后再来看这段儿代码
+ * TODO:学了volatile后再来看这段儿代码+研磨设计模式单例3和4章节
  * @author ronin
  * @version V1.0
  * @since 2019/8/5 18:29
