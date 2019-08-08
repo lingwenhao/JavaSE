@@ -1,9 +1,8 @@
 package structure.adapter.adapter_g;
 
-import java.lang.reflect.Parameter;
 import java.util.*;
 
-public class PropertiesUtils {
+public class CollectionUtils {
 
     /**
      *  不使用适配器模式
@@ -23,8 +22,8 @@ public class PropertiesUtils {
      * @param collection
      */
     public static void list(Collection collection){
-        Disacher disacher = new Disacher();
-        CollectionAdapter collectionAdapter = disacher.doDispatch(collection);
+        Dispatacher dispatacher = new Dispatacher();
+        CollectionAdapter collectionAdapter = dispatacher.doDispatch(collection);
         collectionAdapter.handle(collection);
     }
 
@@ -42,7 +41,11 @@ public class PropertiesUtils {
 
         @Override
         public void handle(Collection collection) {
-            System.out.println("List:"+collection.getClass().getName());
+            List list = new ArrayList<>(collection);
+            Iterator iterator = list.iterator();
+            while(iterator.hasNext()){
+                System.out.println(iterator.next().toString());
+            }
         }
     }
 
@@ -54,21 +57,31 @@ public class PropertiesUtils {
 
         @Override
         public void handle(Collection collection) {
-            System.out.println("Set:"+collection.getClass().getName());
+            Set set = new HashSet<>(collection);
+            Iterator iterator = set.iterator();
+            while(iterator.hasNext()){
+                System.out.println(iterator.next());
+            }
         }
     }
 
     /**
      * 调度者
      */
-    private static class Disacher {
+    private static class Dispatacher {
+
         private List<CollectionAdapter> collectionAdapters = new ArrayList<>();
 
-        public Disacher() {
+        public Dispatacher() {
             collectionAdapters.add(new ListAdapter());
             collectionAdapters.add(new SetAdapter());
         }
 
+        /**
+         *
+         * @param collection
+         * @return
+         */
         public CollectionAdapter doDispatch(Collection collection){
             for(CollectionAdapter collectionAdapter:this.collectionAdapters ){
                if(collectionAdapter.support(collection)){

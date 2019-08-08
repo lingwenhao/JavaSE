@@ -13,7 +13,11 @@ public class Customer {
 
     }
 
-    public Customer(Builder builder) {
+    /**
+     * 外部构造方法需要私有化
+     * @param builder
+     */
+    private Customer(Builder builder) {
         this.id = builder.id;
         this.name = builder.name;
         this.email = builder.email;
