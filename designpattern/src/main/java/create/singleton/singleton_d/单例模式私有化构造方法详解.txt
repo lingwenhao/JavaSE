@@ -1,0 +1,21 @@
+单例模式私有化构造方法:
+    只是说在单例类的外部不能使用new关键字去创建这个单例类了
+    public class Singleton{
+        private Singleton(){}
+        private static final Singleton singleton = new Singleton();
+        public Singleton getInstance(){
+            return singleton;
+        }
+    }
+    //现在要调用单例类来获取单例:
+    Singleton singleton = Singleton.getInstance();
+    注意:这个方法执行了，发生了如下行为:
+        调用获取单例的方法:
+            public Singleton getInstance(){
+               return singleton;
+            }
+        去池中找到单例:
+            private static final Singleton singleton = new Singleton();
+        真正生产单例时必走无参构造:
+            private Singleton(){}
+        所以无参构造中在不做判断的情况下不能抛出任何异常，否则会导致对象创建失败

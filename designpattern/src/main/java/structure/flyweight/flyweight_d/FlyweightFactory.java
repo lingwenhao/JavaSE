@@ -11,7 +11,7 @@ import java.util.Map;
  */
 public class FlyweightFactory {
 
-    private static FlyweightFactory factory = new FlyweightFactory();
+    private static final FlyweightFactory factory = new FlyweightFactory();
 
     private FlyweightFactory(){
     }

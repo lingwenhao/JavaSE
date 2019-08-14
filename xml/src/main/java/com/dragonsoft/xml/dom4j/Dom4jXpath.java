@@ -85,8 +85,7 @@ public class Dom4jXpath {
 
 	/**  
 	 * 得到xml文档的root节点
-	 * @param DocumentException 参数  
-	 * @return Element    返回类型  
+	 * @return Element    返回类型
 	 * @throws  
 	 */
 	private static Document dom4jParseXmlgetDocumentObject() throws DocumentException {

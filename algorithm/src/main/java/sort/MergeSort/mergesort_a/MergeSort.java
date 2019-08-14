@@ -10,12 +10,11 @@ public class MergeSort {
         int[] arr = {8,4,5,7,3,6,2,1};
         int[] temp = new int[arr.length];
         parse(arr,0,arr.length-1,temp);
-
         System.out.println(Arrays.toString(arr));
 
     }
 
-    public static void parse(int[] arr,int left,int right,int[] temp){
+    private static void parse(int[] arr,int left,int right,int[] temp){
         if(left<right){
             int mid = (left + right)/2;
             //向左递归分解
@@ -27,6 +26,7 @@ public class MergeSort {
         }
     }
 
+
     /**
      * 治
      * @param arr 原数组
@@ -35,45 +35,43 @@ public class MergeSort {
      * @param right 右边有序序列的初始索引
      * @param temp temp数组
      */
-    public static void merge(int[] arr,int left,int mid,int right,int[] temp){
-        //左边有序序列的初始索引
-        int i = left;
-        //右边有序序列的初始索引
-        int j = mid+1;
-        //temp数组的索引，指向temp数组的当前索引(变化的)
-        int t = 0;
-        //1.先把左右两边的数据按规则填充到temp数组，直到左右两边的有序数组有一边全部处理完毕为止
-        while(i<=mid && j<=right){
-            //左边数组的当前元素小于等于右边数组的当前元素
-            if(arr[i] <= arr[j]){
-                temp[t] = arr[i];
-                t++;
-                i++;
+    private static void merge(int []arr,int left,int mid,int right,int[] temp){
+        //l、r是检测指针
+        int l = left;
+        int r = mid+1;
+        //t是temp数组的指针
+        System.out.println("left:"+left);
+        int t = left;
+
+        //if判断法
+        while(l<=mid && r<=right){
+            if(arr[l]<=arr[r]) {
+                temp[t++] = arr[l++];
             }else {
-                temp[t] = arr[j];
-                t++;
-                j++;
+                temp[t++] = arr[r++];
             }
         }
-        //2.上一步过后，把把某一边数组中的剩余元素依次全部填充到temp
-        while(i<=mid){
-            temp[t] = arr[i];
-            t++;
-            i++;
+
+        //三目运算
+//        while(l<=mid && r<=right){
+//            temp[t++] = arr[l]<=arr[r] ? arr[l++] : arr[r++];
+//        }
+
+        //如果第一个序列未检测完，直接将后面所有元素加到合并的序列中
+        while(l<=mid) {
+            temp[t++]=arr[l++];
         }
-        while(j<=right){
-            temp[t] = arr[j];
-            t++;
-            j++;
+        //如果第一个序列未检测完，直接将后面所有元素加到合并的序列中
+        while(r<=right) {
+            temp[t++]=arr[r++];
+        }
+
+        //复制回原素组
+        for (int i = left; i <=right; i++){
+            arr[i]=temp[i];
         }
         System.out.println(Arrays.toString(temp));
-        //3.将temp数组的数组拷贝到原数组
-//        t = 0;
-//        int tempLeft = left;
-//        while(tempLeft<=right){
-//            temp[tempLeft] = temp[t];
-//            t++;
-//            tempLeft++;
-//        }
+        System.out.println(Arrays.toString(arr));
+        System.out.println("------------------------");
     }
 }
