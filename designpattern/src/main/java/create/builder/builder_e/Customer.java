@@ -9,9 +9,7 @@ public class Customer {
     private String hobby;
     private String addess;
 
-    public Customer() {
-
-    }
+    private Customer() {}
 
     /**
      * 外部构造方法需要私有化
