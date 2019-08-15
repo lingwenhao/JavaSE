@@ -5,8 +5,7 @@ import java.util.List;
 /**
  * 守护者对象:负责保存多个备忘录对象，使用集合管理吗，提高效率
  */
-public class CareTaker {
-
+public class  CareTaker {
     private List<Memento> mementoList = new ArrayList <Memento>();
 
     /**

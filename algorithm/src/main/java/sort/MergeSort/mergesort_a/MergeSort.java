@@ -22,6 +22,9 @@ public class MergeSort {
             //向右递归分解
             parse(arr,mid+1,right,temp);
             //每分解一次就合并一次
+            System.out.println("left:"+left);
+            System.out.println("mid:"+mid);
+            System.out.println("right:"+right);
             merge(arr,left,mid,right,temp);
         }
     }
