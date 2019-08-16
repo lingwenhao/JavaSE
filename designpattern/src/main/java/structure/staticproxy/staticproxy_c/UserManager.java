@@ -40,7 +40,6 @@ public class UserManager {
                 proxy.setName(rs.getString("name"));
                 col.add(proxy);
             }
-
             rs.close();
             pstmt.close();
         }finally{
