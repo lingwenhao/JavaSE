@@ -1,4 +1,4 @@
-package action.observer.observer_b;
+package action.observer.observer_c;
 
 
 import java.util.List;

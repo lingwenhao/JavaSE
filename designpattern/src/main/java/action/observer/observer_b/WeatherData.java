@@ -1,28 +1,21 @@
 package action.observer.observer_b;
 
-
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-
 /**
- * 具体的发布者
+ * 1.包含了最新的天气信息
+ * 2.包含了ConcreteConditions
+ * 3.如果数据有更新,就调用concreteConditions.update()完成最新信息推送
  */
-public class WeatherData implements Subject{
+public class WeatherData {
     //温度
     private String temperature;
     //气压
     private String pressure;
     //湿度
     private String humidity;
+    private ConcreteConditions concreteConditions;
 
-    /**
-     * 所有的观察者
-     */
-    private List<Observer> observers;
-
-    public WeatherData() {
-        observers = new ArrayList<Observer>();
+    public WeatherData(ConcreteConditions concreteConditions) {
+        this.concreteConditions = concreteConditions;
     }
 
     public String getTemperature() {
@@ -38,7 +31,7 @@ public class WeatherData implements Subject{
     }
 
     /**
-     * 当数据有更新时就调用此方法:会先更新数据然后通知所有的观察者
+     * 当数据有更新时就调用此方法
      * @param temperature
      * @param pressure
      * @param humidity
@@ -47,35 +40,12 @@ public class WeatherData implements Subject{
         this.temperature = temperature;
         this.pressure = pressure;
         this.humidity = humidity;
-        //把更新推送给所有的观察者
-        notifyObservers();
+        //将最新的信息推送给接入方:ConcreteConditions,即调用接入方的update()
+        dataChange();
     }
 
-    @Override
-    public void regist(Observer object) {
-        observers.add(object);
-    }
 
-    @Override
-    public void remove(Observer object) {
-        observers.remove(object);
+    public void dataChange() {
+        concreteConditions.update(getTemperature(),getPressure(),getHumidity());
     }
-
-    /**
-     * 遍历所有观察者,并通知
-     */
-    @Override
-    public void notifyObservers() {
-        Iterator<Observer> iterator = observers.iterator();
-        while (iterator.hasNext()){
-            Observer observer = iterator.next();
-            observer.update(this.temperature,this.pressure,this.humidity);
-        }
-    }
-
-    @Override
-    public List<Observer> getObervers() {
-        return observers;
-    }
-
 }

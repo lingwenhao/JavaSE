@@ -1,4 +1,4 @@
-package action.observer.observer_b;
+package action.observer.observer_c;
 
 /**
  * 订阅者接口:由具体观察者实现
