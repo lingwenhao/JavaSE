@@ -1,27 +1,20 @@
 package action.iterator.iterator_b;
 
-/**
- * 对于List和Array两种不同的结构,可以使用相同的方式来遍历
- */
+import java.util.ArrayList;
+import java.util.List;
+
 public class Client {
     public static void main(String[] args) {
-        /**
-         * 遍历list结构
-         */
-        Structure listStructure = new ListStructure();
-        Iterator listiIterator = listStructure.iterator();
-        while (listiIterator.hasNext()){
-            System.out.println(listiIterator.next());
-        }
+        //创建学院
+        List<College> collegeList = new ArrayList<>();
+        //创建计算机学院
+        College computerCollege = new ComputerCollege();
+        //创建信息工程学院
+        College informationCollege = new InformationCollege();
+        collegeList.add(computerCollege);
+        collegeList.add(informationCollege);
 
-        System.out.println("------------------");
-        /**
-         * 遍历Array结构
-         */
-        Structure arrayStructure = new ArrayStructure();
-        Iterator arrayIterator = arrayStructure.iterator();
-        while (arrayIterator.hasNext()){
-            System.out.println(arrayIterator.next());
-        }
+        OutputImpl output = new OutputImpl(collegeList);
+        output.printCollege();
     }
 }

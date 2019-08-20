@@ -1,4 +1,4 @@
-package action.iterator.iterator_a;
+package action.iterator.iterator_b;
 
 public interface College {
     String getName();

@@ -1,20 +1,35 @@
 package action.iterator.iterator_a;
 
-import java.util.ArrayList;
-import java.util.List;
-
+/**
+ * @author ronin
+ * @version V1.0
+ * @since 2019/8/20 9:09
+ */
 public class Client {
-    public static void main(String[] args) {
-        //创建学院
-        List<College> collegeList = new ArrayList<>();
-        //创建计算机学院
-        College computerCollege = new ComputerCollege();
-        //创建信息工程学院
-        College informationCollege = new InformationCollege();
-        collegeList.add(computerCollege);
-        collegeList.add(informationCollege);
+    /**
+     * 示意方法，使用迭代器的功能。
+     * 这里示意使用迭代器来迭代聚合对象
+     */
+    public void someOperation(){
+        String[] names = {"张三","李四","王五"};
+        //创建聚合对象
+        Aggregate aggregate = new ConcreteAggregate(names);
+        //循环输出聚合对象中的值
+        Iterator it = aggregate.createIterator();
+        //首先设置迭代器到第一个元素
+        it.first();
+        while(!it.isDone()){
+            //取出当前的元素来
+            Object obj = it.currentItem();
+            System.out.println("the obj=="+obj);
+            //如果还没有迭代到最后，那么就向下迭代一个
+            it.next();
+        }
+    }
 
-        OutputImpl output = new OutputImpl(collegeList);
-        output.printCollege();
+    public static void main(String[] args) {
+        //可以简单的测试一下
+        Client client = new Client();
+        client.someOperation();
     }
 }

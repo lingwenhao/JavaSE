@@ -1,4 +1,4 @@
-package action.iterator.iterator_a;
+package action.iterator.iterator_b;
 
 /**
  * 计算机学院:元素存放在数组中

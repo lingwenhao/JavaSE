@@ -1,4 +1,4 @@
-package action.iterator.iterator_a;
+package action.iterator.iterator_b;
 
 import java.util.ArrayList;
 import java.util.List;
