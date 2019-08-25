@@ -36,7 +36,7 @@ public class ThreadBinaryTree {
             node.setLeftType(1);
         }
         //处理后继节点
-        if(prev != null && prev.getRight() != null){
+        if(prev != null && prev.getRight() == null){
             prev.setRight(node);
             prev.setRightType(1);
         }
@@ -52,9 +52,10 @@ class Node{
     private Node left;
     private Node right;
 
-    //0:表示指向左子节点 1:表示指向右子节点
-    private int leftType;
+    /**0:表示指向左子节点 1:表示指向前驱节点*/
     private int rightType;
+    /**0:表示指向左子节点 1:表示指向后继节点*/
+    private int leftType;
 
     public int getId() {
         return id;
