@@ -1,4 +1,4 @@
-package action.template.template_h;
+package action.template.template_g;
 
 /**
  * 封装进行登录控制所需要的数据

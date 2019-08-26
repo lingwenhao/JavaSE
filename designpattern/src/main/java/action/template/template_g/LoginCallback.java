@@ -1,4 +1,4 @@
-package action.template.template_h;
+package action.template.template_g;
 
 /**
  * 登录控制的模板方法需要的回调接口，需要把所有需要的接口方法都定义出来,

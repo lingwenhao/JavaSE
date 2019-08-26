@@ -1,4 +1,4 @@
-package action.template.template_h;
+package action.template.template_g;
 
 /**
  * 登录控制的模板
