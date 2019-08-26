@@ -1,4 +1,4 @@
-package action.template.template_a;
+package action.template.template_c;
 
 /**
  * 豆浆
@@ -8,8 +8,10 @@ public abstract class SoyaMilk {
     public final void make(){
         //选料
         select();
-        //添加配料
-        addIngredients();
+        //添加配料:使用钩子方法增强
+        if(hook()){
+            addIngredients();
+        }
         //浸泡
         soak();
         //打豆浆
@@ -34,5 +36,9 @@ public abstract class SoyaMilk {
         System.out.println("第四步:黄豆和配料放入豆浆机中打碎......");
     }
 
+    /**钩子方法:确定是否添加配料*/
+    public boolean hook(){
+        return true;
+    }
 
 }

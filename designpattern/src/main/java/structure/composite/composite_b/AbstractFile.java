@@ -1,4 +1,4 @@
-package structure.composite.composite_a;
+package structure.composite.composite_b;
 
 import java.util.ArrayList;
 import java.util.List;

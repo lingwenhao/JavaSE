@@ -1,4 +1,4 @@
-package action.template.template_a;
+package action.template.template_c;
 
 /**
  * 红豆豆浆

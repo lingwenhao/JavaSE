@@ -1,4 +1,4 @@
-package structure.composite.composite_b;
+package structure.composite.composite_c;
 
 public abstract class OrganizationComponment {
     private String name;

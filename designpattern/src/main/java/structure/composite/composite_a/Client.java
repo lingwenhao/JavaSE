@@ -1,30 +1,31 @@
 package structure.composite.composite_a;
 
-/**  
+/**
  * @author ronin
- * @date 2019年3月23日  
- *    
+ * @version V1.0
+ * @since 2019/8/22 11:09
  */
 public class Client {
-	public static void main(String[] args) {
-		Folder f1 = new Folder("文件夹");
-		imageFiles f2 = new imageFiles("头像文件");
-		TextFiles f3 = new TextFiles("文本文件");
-	
-		/**
-		 * 把头像文件和文本文件放入到文件夹中
-		 */
-		f1.add(f2);
-		f1.add(f3);
-		
-		/**
-		 * 图像文件杀毒
-		 */
-		f2.killViruls();
-		
-		/**
-		 * 文件夹杀毒
-		 */
-		f1.killViruls();
-	}
+    public static void main(String[] args) {
+        //定义多个Composite对象
+        Component root = new Composite();
+        Component c1 = new Composite();
+        Component c2 = new Composite();
+
+        //定义多个叶子对象
+        Component leaf1 = new Leaf();
+        Component leaf2 = new Leaf();
+        Component leaf3 = new Leaf();
+
+        //组合成为树形的对象结构
+        root.addChild(c1);
+        root.addChild(c2);
+        root.addChild(leaf1);
+        c1.addChild(leaf2);
+        c2.addChild(leaf3);
+
+        //操作Component对象
+        Component o = root.getChildren(1);
+        System.out.println(o);
+    }
 }

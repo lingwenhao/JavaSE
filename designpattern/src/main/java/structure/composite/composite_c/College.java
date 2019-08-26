@@ -1,27 +1,27 @@
-package structure.composite.composite_b;
+package structure.composite.composite_c;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class University extends OrganizationComponment {
+public class College extends OrganizationComponment {
 
     /**
-     * 存放的College
+     * 存放的department
      */
-    List<OrganizationComponment> collegeList = new ArrayList<OrganizationComponment>();
+    List<OrganizationComponment> deparmentList = new ArrayList<OrganizationComponment>();
 
-    public University(String name, String desc) {
+    public College(String name, String desc) {
         super(name, desc);
     }
 
     @Override
     protected void add(OrganizationComponment organizationComponment) {
-        collegeList.add(organizationComponment);
+        deparmentList.add(organizationComponment);
     }
 
     @Override
     protected void remove(OrganizationComponment organizationComponment) {
-        collegeList.remove(organizationComponment);
+        deparmentList.remove(organizationComponment);
     }
 
     @Override
@@ -34,13 +34,15 @@ public class University extends OrganizationComponment {
         return super.getDesc();
     }
 
-    /**输出University中所包含的学院*/
+    /**
+     * 输出College中所包含的学院
+     */
     @Override
     public void print() {
         System.out.println("-------------"+getName()+":"+getDesc()+"-------------");
         //遍历
-        for(OrganizationComponment collge:collegeList){
-            collge.print();
+        for(OrganizationComponment department:deparmentList){
+            department.print();
         }
     }
 }

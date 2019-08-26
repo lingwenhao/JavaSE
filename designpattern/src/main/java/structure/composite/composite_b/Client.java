@@ -1,28 +1,30 @@
 package structure.composite.composite_b;
 
-import java.util.Arrays;
-
+/**  
+ * @author ronin
+ * @date 2019年3月23日  
+ *    
+ */
 public class Client {
-    public static void main(String[] args) {
-        //创建大学
-        OrganizationComponment university = new University("ufe", "西安财经大学");
-
-        //创建学院
-        OrganizationComponment xxCollege = new College("xxxy", "信息学院");
-        OrganizationComponment jrCollege = new College("jrxy", "金融学院");
-
-        //创建学院下面的各个系(专业)
-            //信息学院
-        xxCollege.add(new Department("ec","电子商务"));
-        xxCollege.add(new Department("software","软件工程"));
-            //金融学院
-        jrCollege.add(new Department("kj","会计学院"));
-        jrCollege.add(new Department("tj","统计学院"));
-
-        //将学院加入到学校
-        university.add(xxCollege);
-        university.add(jrCollege);
-        university.print();
-        //xxCollege.print();
-    }
+	public static void main(String[] args) {
+		Folder f1 = new Folder("文件夹");
+		imageFiles f2 = new imageFiles("头像文件");
+		TextFiles f3 = new TextFiles("文本文件");
+	
+		/**
+		 * 把头像文件和文本文件放入到文件夹中
+		 */
+		f1.add(f2);
+		f1.add(f3);
+		
+		/**
+		 * 图像文件杀毒
+		 */
+		f2.killViruls();
+		
+		/**
+		 * 文件夹杀毒
+		 */
+		f1.killViruls();
+	}
 }

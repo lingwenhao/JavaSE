@@ -1,25 +1,23 @@
-package structure.composite.composite_a;
+package structure.composite.composite_e;
 
 /**
- * 抽象的组件对象，为组合中的对象声明接口，实现接口的缺省行为
+ * 抽象的组件对象
  * @author ronin
  * @version V1.0
- * @since 2019/8/22 11:05
+ * @since 2019/8/22 11:12
  */
 public abstract class Component {
 
     /**
-     * 示意方法，子组件对象可能有的功能方法
+     * 输出组件自身的名称
      */
-    public abstract void someOperation();
+    public abstract void printStruct(String preStr);
 
     /**
      * 向组合对象中加入组件对象
      * @param child 被加入组合对象中的组件对象
      */
     public void addChild(Component child) {
-        // 缺省的实现，抛出例外，因为叶子对象没有这个功能，
-        //或者子组件没有实现这个功能
         throw new UnsupportedOperationException("对象不支持这个功能");
     }
 
@@ -28,8 +26,6 @@ public abstract class Component {
      * @param child 被移出的组件对象
      */
     public void removeChild(Component child) {
-        // 缺省的实现，抛出例外，因为叶子对象没有这个功能，
-        //或者子组件没有实现这个功能
         throw new UnsupportedOperationException("对象不支持这个功能");
     }
 
@@ -39,8 +35,6 @@ public abstract class Component {
      * @return 索引对应的组件对象
      */
     public Component getChildren(int index) {
-        // 缺省的实现，抛出例外，因为叶子对象没有这个功能，
-        //或者子组件没有实现这个功能
         throw new UnsupportedOperationException("对象不支持这个功能");
     }
 }

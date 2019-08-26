@@ -1,4 +1,4 @@
-package action.template.template_b;
+package action.template.template_c;
 
 /**
  * 纯豆浆
