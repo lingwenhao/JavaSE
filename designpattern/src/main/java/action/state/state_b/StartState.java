@@ -1,4 +1,4 @@
-package action.state.state_a;
+package action.state.state_b;
 
 /**
  * @author ronin
