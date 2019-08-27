@@ -1,13 +1,11 @@
-package action.interpreter.interpreter_a;
+package action.interpreter.interpreter_b;
 
 import java.util.HashMap;
 
 /**
- * 抽象运算符解释器
- *      每个运算符，都只和自己左右两个数字有关
- *      但左右两个数字有可能也是一个解析的结果，无论何种类型，都是Expression的实现类
+ * 减法解释器
  */
-public class SymbolExpression extends Expression {
+public class SubExpression extends SymbolExpression {
 
     /**
      * 左表达式
@@ -18,33 +16,36 @@ public class SymbolExpression extends Expression {
      */
     private Expression right;
 
-    public SymbolExpression(Expression left, Expression right) {
-        this.left = left;
-        this.right = right;
+    public SubExpression(Expression left, Expression right) {
+        super(left, right);
     }
 
     /**
-     * 此方法默认空实现，由具体的子类进行实现
+     *
      * @param var key:公式 value:变量对应的具体值,如:{a=10,b=20}
      * @return
      */
     @Override
     public int interpret(HashMap<String, Integer> var) {
-        return 0;
+        return super.getLeft().interpret(var) - super.getRight().interpret(var);
     }
 
+    @Override
     public Expression getLeft() {
         return left;
     }
 
+    @Override
     public void setLeft(Expression left) {
         this.left = left;
     }
 
+    @Override
     public Expression getRight() {
         return right;
     }
 
+    @Override
     public void setRight(Expression right) {
         this.right = right;
     }

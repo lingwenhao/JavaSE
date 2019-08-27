@@ -1,4 +1,4 @@
-package action.interpreter.interpreter_a;
+package action.interpreter.interpreter_b;
 
 import java.util.HashMap;
 
