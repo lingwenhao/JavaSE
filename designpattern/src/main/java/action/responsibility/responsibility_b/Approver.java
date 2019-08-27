@@ -1,4 +1,4 @@
-package action.responsibility.responsibility_a;
+package action.responsibility.responsibility_b;
 
 public abstract class Approver {
     /**
