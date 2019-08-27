@@ -1,4 +1,4 @@
-package action.memento.mementor_a;
+package action.memento.mementor_b;
 
 /**
  * 备忘录对象:负责保存好状态变化的记录

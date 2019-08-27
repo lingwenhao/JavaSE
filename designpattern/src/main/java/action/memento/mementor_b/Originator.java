@@ -1,4 +1,4 @@
-package action.memento.mementor_a;
+package action.memento.mementor_b;
 
 /**
  * 原始对象

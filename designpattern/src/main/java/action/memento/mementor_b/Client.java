@@ -1,4 +1,4 @@
-package action.memento.mementor_a;
+package action.memento.mementor_b;
 
 public class Client {
     public static void main(String[] args) {
