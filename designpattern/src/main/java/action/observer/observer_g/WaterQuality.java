@@ -34,6 +34,7 @@ public class WaterQuality extends WaterQualitySubject{
 
     /**
      * 通知相应的观察者对象
+     *      此处在广播时对广播的范围作了限定
      */
     @Override
     public void notifyWatchers() {

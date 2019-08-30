@@ -9,7 +9,7 @@ import java.util.List;
  * @version V1.0
  * @since 2019/8/19 15:03
  */
-public class Subject {
+public abstract class Subject {
 
     /**
      * 用来保存注册的观察者对象，也就是报纸的订阅者
