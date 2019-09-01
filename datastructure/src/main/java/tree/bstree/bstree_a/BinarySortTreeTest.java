@@ -1,4 +1,4 @@
-package tree.BSTree.bstree_a;
+package tree.bstree.bstree_a;
 
 /**
  * @author ronin

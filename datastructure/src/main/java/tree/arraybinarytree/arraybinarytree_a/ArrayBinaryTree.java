@@ -1,4 +1,4 @@
-package tree.binarytree.binarytree_b;
+package tree.arraybinarytree.arraybinarytree_a;
 
 /**
  * @author ronin

@@ -1,10 +1,19 @@
-package tree.BSTree.bstree_a;
+package tree.avltree.avltree_a;
 
 /**
+ * avl是在平衡二叉树的基础上增加一个功能的树
  * @author ronin
  */
-public class BinarySortTree {
+public class AVLTree {
     private Node root;
+
+    public Node getRoot() {
+        return root;
+    }
+
+    public void setRoot(Node root) {
+        this.root = root;
+    }
 
     /**
      * 查找要删除的节点
@@ -131,8 +140,8 @@ public class BinarySortTree {
         }
         root.infixOrder();
     }
-
 }
+
 class Node{
     int value;
     Node left;
@@ -142,6 +151,73 @@ class Node{
         this.value = value;
     }
 
+    /**
+     * 返回左子树高度
+     * @return
+     */
+    public int leftHeight(){
+        if(left == null){
+            return 0;
+        }
+        return  left.height();
+    }
+
+    /**
+     * 返回左子树高度
+     * @return
+     */
+    public int rightHeight(){
+        if(right == null){
+            return 0;
+        }
+        return  right.height();
+    }
+
+    /**
+     * 返回以该节点为根节点的树的高度
+     * @return
+     */
+    public int height(){
+        return Math.max(left == null ? 0 : left.height(),right == null ? 0 : right.height())+1;
+    }
+
+    /**
+     * 左旋转
+     *  每次添加一个节点后要判断是否要进行左旋转
+     */
+    public void leftRotate(){
+        //创建新节点,以当前根节点的值
+        Node newNode = new Node(value);
+        //把新节点的左子树设置成当前节点的左子树
+        newNode.left = left;
+        //把新节点的右子树设置成当前节点的右子树的左子树
+        newNode.right = right.left;
+        //把当前节点的值替换成右子节点的值
+        value = right.value;
+        //把当前节点的右子树设置成当前节点的右子树的右子树
+        right = right.right;
+        //把当前节点的左子树设置成新的节点
+        left = newNode;
+    }
+
+    /**
+     * 右旋转
+     *  每次添加一个节点后要判断是否要进行左旋转
+     */
+    public void rightRotate(){
+        //创建新节点,以当前根节点的值
+        Node newNode = new Node(value);
+        //把新节点的右子树设置成当前节点的右子树
+        newNode.right = right;
+        //把新节点的左子树设置成当前节点的左子树的右子树
+        newNode.left = left.right;
+        //把当前节点的值替换成左子节点的值
+        value = left.value;
+        //把当前节点的左子树设置成当前节点的左子树的左子树
+        left = left.left;
+        //把当前节点的左子树设置成新的节点
+        right = newNode;
+    }
     /**
      * 增加节点
      * @param node
@@ -162,6 +238,35 @@ class Node{
                 this.right = node;
             }else{
                 this.right.add(node);
+            }
+        }
+
+        //当添加完一个节点后,右子树的高度减去左子树的高度的值大于1,则左旋转
+        if(rightHeight() - leftHeight() > 1){
+            //如果右子树的左子树的高度大于右子树的右子树的高度
+            if(right != null && right.leftHeight() > right.rightHeight()){
+                //先对右子节点进行右旋转
+                right.rightRotate();
+                //在对当前节点进行左旋转
+                leftRotate();
+            }else{
+                //否则直接进行左旋即可
+                leftRotate();
+            }
+            //这里必须返回
+            return;
+        }
+        //当添加完一个节点后,左子树的高度减去右子树的高度的值大于1,则右旋转
+        if(leftHeight() - rightHeight() > 1){
+            //如果左子树的右子树的右子树高度大于左子树高度
+            if(left != null && left.rightHeight() > left.leftHeight()){
+                //先对当前节点的左节点(左子树)->左节点
+                left.leftRotate();
+                //再对当前节点进行右旋转
+                rightRotate();
+            }else {
+                //否则:直接进行右旋转即可
+                rightRotate();
             }
         }
     }

@@ -1,4 +1,4 @@
-package tree.HuffmanTree.huffmantree_b;
+package tree.huffmantree.huffmantree_b;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package tree.binarytree.binarytree_c;
+package tree.threadbinarytree.threadbinarytree_a;
 
 /**
  * @author ronin
